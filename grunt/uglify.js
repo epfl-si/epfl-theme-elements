@@ -24,9 +24,9 @@ module.exports = {
       ]
     }
   },
-  package: {
+  release: {
     files: {
-      'package/js/epfl-theme-elements-<%= pkg.version %>.min.js': [
+      'release/js/epfl-theme-elements-<%= pkg.version %>.min.js': [
         'bower_components/jquery/dist/jquery.min.js',
         'tmp/js/vendors.min.js',
         'tmp/js/vendors.bundle.js',

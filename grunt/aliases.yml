@@ -10,7 +10,10 @@ build:
   - 'cssmin:dist'
   - 'uglify:dist'
 
+release:
+  - 'copy:release'
+  - 'cssmin:release'
+  - 'uglify:release'
+
 package:
-  - 'copy:package'
-  - 'cssmin:package'
-  - 'uglify:package'
+  - 'compress'

@@ -17,7 +17,8 @@
   "scripts": {
     "test": "grunt test",
     "build": "./bin/build-and-copy-elements.sh && grunt build",
-    "package": "npm run build && grunt package",
+    "release": "npm run build && grunt release",
+    "package": "npm run release && grunt package",
     "postinstall": "node node_modules/bower/bin/bower install"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "grunt": "^1.0.3",
+    "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-uglify": "^3.3.0",

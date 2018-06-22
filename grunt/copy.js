@@ -25,16 +25,15 @@ module.exports = function (grunt, options) {
         nonull: true
       }]
     },
-    package: {
+    release: {
       files: [{
         expand: true,
         dot: true,
         cwd: 'dist/icons/',
-        dest: 'package/icons/',
+        dest: 'release/icons/',
         src: ['**'],
         filter: 'isFile',
         rename: function (dest, src) {
-          console.log(src);
           var ext = src.substr((src.lastIndexOf('.')));
           return dest + src.replace(ext, '-' + options.package.version + ext);
         }

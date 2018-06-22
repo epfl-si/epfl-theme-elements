@@ -32,14 +32,21 @@ $ npm run build
 
 and check the `dist` folder.
 
+Release
+-------
+
+```bash
+$ npm run release
+```
+
+and check the `release` folder.
+
 Package
 -------
 
 ```bash
 $ npm run package
 ```
-
-and check the `package` folder.
 
 License
 -------

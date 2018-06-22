@@ -14,9 +14,9 @@ module.exports = {
       ]
     }
   },
-  package: {
+  release: {
     files: {
-      'package/css/epfl-theme-elements-<%= pkg.version %>.min.css': [
+      'release/css/epfl-theme-elements-<%= pkg.version %>.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css'
       ]
