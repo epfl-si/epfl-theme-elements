@@ -6,3 +6,4 @@ test:
 
 build:
   - 'cssmin'
+  - 'uglify'

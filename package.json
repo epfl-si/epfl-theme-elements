@@ -27,6 +27,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "grunt": "^1.0.3",
     "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0",
     "grunt-eslint": "^20.1.0",
     "load-grunt-config": "^0.19.2"
   },

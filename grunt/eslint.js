@@ -9,5 +9,11 @@ module.exports = {
   options: {
     configFile: '.eslintrc.json'
   },
-  target: ['**/*.js', '!node_modules/**/*.js', '!tmp/**/*.js']
+  target: [
+    '**/*.js',
+    '!node_modules/**/*.js',
+    '!tmp/**/*.js',
+    '!bower_components/**/*.js',
+    '!dist/**/*.js'
+  ]
 };
