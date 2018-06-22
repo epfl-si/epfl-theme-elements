@@ -1,0 +1,21 @@
+{
+  "name": "epfl-theme-elements",
+  "version": "0.0.1",
+  "description": "EPFL Web Styleguide 2018 based on elements",
+  "keywords": [
+    "EPFL",
+    "theme",
+    "elements"
+  ],
+  "author": "William Belle <william.belle@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/epfl-idevelop/epfl-theme-elements.git",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "./bin/build-and-copy-elements.sh"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
