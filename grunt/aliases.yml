@@ -5,5 +5,12 @@ test:
   - 'eslint'
 
 build:
-  - 'cssmin'
-  - 'uglify'
+  - 'copy:icons'
+  - 'copy:favicons'
+  - 'cssmin:dist'
+  - 'uglify:dist'
+
+package:
+  - 'copy:package'
+  - 'cssmin:package'
+  - 'uglify:package'

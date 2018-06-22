@@ -66,3 +66,4 @@ typings/
 # Build and temporary directories
 tmp/
 build/
+package/

@@ -11,6 +11,7 @@ REPO_THEME="../epfl-theme-elements/"
 rm -fr build/
 rm -fr dist/
 rm -fr tmp/
+rm -fr package/
 
 # Build elements theme
 cd $REPO_ELEMENTS

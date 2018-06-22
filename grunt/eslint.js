@@ -14,6 +14,7 @@ module.exports = {
     '!node_modules/**/*.js',
     '!tmp/**/*.js',
     '!bower_components/**/*.js',
-    '!dist/**/*.js'
+    '!dist/**/*.js',
+    '!package/**/*.js'
   ]
 };

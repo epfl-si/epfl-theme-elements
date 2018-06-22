@@ -6,9 +6,17 @@
 'use strict';
 
 module.exports = {
-  release: {
+  dist: {
     files: {
-      'dist/css/epfl-theme-elements-<%= pkg.version %>.min.css': [
+      'dist/css/epfl-theme-elements.min.css': [
+        'tmp/css/base.css',
+        'tmp/css/vendors.min.css'
+      ]
+    }
+  },
+  package: {
+    files: {
+      'package/css/epfl-theme-elements-<%= pkg.version %>.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css'
       ]

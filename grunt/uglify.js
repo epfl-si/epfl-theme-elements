@@ -14,9 +14,19 @@ module.exports = {
       comments: /^!/
     }
   },
-  release: {
+  dist: {
     files: {
-      'dist/js/epfl-theme-elements-<%= pkg.version %>.min.js': [
+      'dist/js/epfl-theme-elements.min.js': [
+        'bower_components/jquery/dist/jquery.min.js',
+        'tmp/js/vendors.min.js',
+        'tmp/js/vendors.bundle.js',
+        'tmp/js/app.bundle.js'
+      ]
+    }
+  },
+  package: {
+    files: {
+      'package/js/epfl-theme-elements-<%= pkg.version %>.min.js': [
         'bower_components/jquery/dist/jquery.min.js',
         'tmp/js/vendors.min.js',
         'tmp/js/vendors.bundle.js',

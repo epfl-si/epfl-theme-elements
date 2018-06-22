@@ -11,6 +11,7 @@
     "William Belle <william.belle@gmail.com>"
   ],
   "license": "Apache-2.0",
+  "main": "dist/js/epfl-theme-elements.min.js",
   "devDependencies": {
     "jquery": "3.3.1"
   }
