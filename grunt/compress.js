@@ -7,10 +7,24 @@
 
 module.exports = function (grunt, options) {
   return {
-    release: {
+    releaseDist: {
       options: {
         archive:
-          'package/epfl-theme-elements-v' + options.package.version + '.zip'
+          'package/epfl-theme-elements-' + options.package.version +
+            '-dist.zip'
+      },
+      files: [{
+        src: '**/*',
+        cwd: 'dist/',
+        dest: '',
+        expand: true
+      }]
+    },
+    releaseCdn: {
+      options: {
+        archive:
+          'package/epfl-theme-elements-' + options.package.version +
+            '-cdn.zip'
       },
       files: [{
         src: '**/*',
