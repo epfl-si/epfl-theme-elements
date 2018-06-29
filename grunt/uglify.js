@@ -17,7 +17,7 @@ module.exports = {
   dist: {
     files: {
       'dist/js/epfl-theme-elements.min.js': [
-        'bower_components/jquery/dist/jquery.min.js',
+        'node_modules/jquery/dist/jquery.min.js',
         'tmp/js/vendors.min.js',
         'tmp/js/vendors.bundle.js',
         'tmp/js/app.bundle.js'
@@ -27,7 +27,7 @@ module.exports = {
   release: {
     files: {
       'release/js/epfl-theme-elements-<%= pkg.version %>.min.js': [
-        'bower_components/jquery/dist/jquery.min.js',
+        'node_modules/jquery/dist/jquery.min.js',
         'tmp/js/vendors.min.js',
         'tmp/js/vendors.bundle.js',
         'tmp/js/app.bundle.js'
