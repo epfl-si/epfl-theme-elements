@@ -15,9 +15,10 @@ Contributions are always welcome.
 
 See [Contributing](CONTRIBUTING.md).
 
-Developer
----------
+Developers
+----------
 
+  * [Olivier Bieler](https://github.com/obieler)
   * [William Belle](https://github.com/williambelle)
 
 License
