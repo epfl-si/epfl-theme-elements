@@ -9,9 +9,8 @@ WEB2018_PATH=/home/kis/web2018.epfl.ch
 APP_NAME=epfl-theme-elements-X.Y.Z-cdn.zip
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SERVERS_LIST=( "exopgesrv1.epfl.ch"
-               # "kissrv104.epfl.ch"
-               # "kissrv105.epfl.ch"
-                )
+               "kissrv104.epfl.ch"
+               "kissrv105.epfl.ch" )
 
 # Deploy the tools to the various servers
 deploy_tools() {
@@ -35,15 +34,7 @@ deploy() {
   fi
 
   # Deploying new version
-  rm -rf ~/tmp
-  mkdir ~/tmp
-  unzip $1 -d ~/tmp
-  VERSION=`ls -rt epfl-theme-elements-*cdn* | tail -1 | awk -F"-" '{ print $4 }'`
-
-  mkdir $WEB2018_PATH/$VERSION
-  cp -r ~/tmp/css $WEB2018_PATH/$VERSION
-  cp -r ~/tmp/icons $WEB2018_PATH/$VERSION
-  cp -r ~/tmp/js $WEB2018_PATH/$VERSION
+  unzip -o $1 -d $WEB2018_PATH/$VERSION
 
   echo "Deployed version $VERSION"
 }
