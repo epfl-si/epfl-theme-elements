@@ -30,13 +30,9 @@ module.exports = function (grunt, options) {
         expand: true,
         dot: true,
         cwd: 'dist/icons/',
-        dest: 'release/icons/',
+        dest: 'release/<%= pkg.version %>/icons/',
         src: ['**'],
-        filter: 'isFile',
-        rename: function (dest, src) {
-          var ext = src.substr((src.lastIndexOf('.')));
-          return dest + src.replace(ext, '-' + options.package.version + ext);
-        }
+        filter: 'isFile'
       }]
     }
   };

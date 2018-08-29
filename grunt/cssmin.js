@@ -16,7 +16,7 @@ module.exports = {
   },
   release: {
     files: {
-      'release/css/epfl-theme-elements-<%= pkg.version %>.min.css': [
+      'release/<%= pkg.version %>/css/epfl-theme-elements.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css'
       ]
