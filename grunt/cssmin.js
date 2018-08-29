@@ -8,7 +8,7 @@
 module.exports = {
   dist: {
     files: {
-      'dist/css/epfl-theme-elements.min.css': [
+      'dist/css/elements.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css'
       ]
@@ -16,7 +16,7 @@ module.exports = {
   },
   release: {
     files: {
-      'release/<%= pkg.version %>/css/epfl-theme-elements.min.css': [
+      'release/<%= pkg.version %>/css/elements.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css'
       ]
