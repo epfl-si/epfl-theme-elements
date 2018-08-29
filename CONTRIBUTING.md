@@ -48,6 +48,25 @@ Package
 $ npm run package
 ```
 
+Deploy
+------
+
+Copy the deploy tool on the servers (if doesn't exist on the server):
+```bash
+./deploy_tool/web2018.sh deploy_tools
+```
+
+Deploy the archive on the servers:
+```bash
+scp package/epfl-theme-elements-X.Y.Z-cdn.zip <user>@<server>:~
+```
+
+Then on each server:
+```bash
+./web2018.sh deploy <archive>
+```
+
+
 License
 -------
 
