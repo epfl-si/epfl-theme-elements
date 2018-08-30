@@ -7,13 +7,8 @@ test:
 build:
   - 'copy:icons'
   - 'copy:favicons'
-  - 'cssmin:dist'
-  - 'uglify:dist'
+  - 'cssmin'
+  - 'uglify'
 
 release:
-  - 'copy:release'
-  - 'cssmin:release'
-  - 'uglify:release'
-
-package:
   - 'compress'

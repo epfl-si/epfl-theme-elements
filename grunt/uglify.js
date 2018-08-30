@@ -23,15 +23,5 @@ module.exports = {
         'tmp/js/app.bundle.js'
       ]
     }
-  },
-  release: {
-    files: {
-      'release/<%= pkg.version %>/js/elements.min.js': [
-        'node_modules/jquery/dist/jquery.min.js',
-        'tmp/js/vendors.min.js',
-        'tmp/js/vendors.bundle.js',
-        'tmp/js/app.bundle.js'
-      ]
-    }
   }
 };
