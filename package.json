@@ -8,6 +8,9 @@
     "elements"
   ],
   "author": "William Belle <william.belle@gmail.com>",
+  "contributors": [
+    "Olivier Bieler (https://github.com/obieler)"
+  ],
   "license": "Apache-2.0",
   "repository": "https://github.com/epfl-idevelop/epfl-theme-elements.git",
   "engines": {
