@@ -23,15 +23,6 @@ Test
 npm t
 ```
 
-Build
------
-
-```bash
-npm run build
-```
-
-and check the `dist` folder.
-
 Release
 -------
 
@@ -39,7 +30,7 @@ Release
 npm run release
 ```
 
-and check the `release` folder.
+and check the `dist` and `release` folders.
 
 Deploy
 ------
