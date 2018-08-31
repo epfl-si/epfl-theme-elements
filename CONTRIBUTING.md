@@ -8,26 +8,26 @@ Setup
 -----
 
 ```bash
-$ git clone git@github.com:epfl-idevelop/elements.git
-$ git clone git@github.com:epfl-idevelop/epfl-theme-elements.git
-$ cd elements
-$ yarn
-$ cd ../epfl-theme-elements
-$ npm i
+git clone git@github.com:epfl-idevelop/elements.git
+git clone git@github.com:epfl-idevelop/epfl-theme-elements.git
+cd elements
+yarn
+cd ../epfl-theme-elements
+npm i
 ```
 
 Test
 ----
 
 ```bash
-$ npm t
+npm t
 ```
 
 Build
 -----
 
 ```bash
-$ npm run build
+npm run build
 ```
 
 and check the `dist` folder.
@@ -36,17 +36,10 @@ Release
 -------
 
 ```bash
-$ npm run release
+npm run release
 ```
 
 and check the `release` folder.
-
-Package
--------
-
-```bash
-$ npm run package
-```
 
 Deploy
 ------
@@ -58,7 +51,7 @@ Copy the deploy tool on the servers (if doesn't exist on the server):
 
 Deploy the archive on the servers:
 ```bash
-scp package/epfl-theme-elements-X.Y.Z-cdn.zip <user>@<server>:~
+scp release/*cdn.zip <user>@<server>:~
 ```
 
 Then on each server:

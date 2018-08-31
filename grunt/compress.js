@@ -5,33 +5,29 @@
 
 'use strict';
 
-module.exports = function (grunt, options) {
-  return {
-    releaseDist: {
-      options: {
-        archive:
-          'package/epfl-theme-elements-' + options.package.version +
-            '-dist.zip'
-      },
-      files: [{
-        src: '**/*',
-        cwd: 'dist/',
-        dest: '',
-        expand: true
-      }]
+module.exports = {
+  releaseDist: {
+    options: {
+      archive:
+        'release/epfl-theme-elements-<%= pkg.version %>-dist.zip'
     },
-    releaseCdn: {
-      options: {
-        archive:
-          'package/epfl-theme-elements-' + options.package.version +
-            '-cdn.zip'
-      },
-      files: [{
-        src: '**/*',
-        cwd: 'release/',
-        dest: '',
-        expand: true
-      }]
-    }
-  };
+    files: [{
+      src: '**/*',
+      cwd: 'dist/',
+      dest: '',
+      expand: true
+    }]
+  },
+  releaseCdn: {
+    options: {
+      archive:
+        'release/epfl-theme-elements-<%= pkg.version %>-cdn.zip'
+    },
+    files: [{
+      src: '**/*',
+      cwd: 'dist/',
+      dest: '<%= pkg.version %>',
+      expand: true
+    }]
+  }
 };
