@@ -25,8 +25,13 @@ module.exports = {
     },
     files: [{
       src: '**/*',
-      cwd: 'dist/',
+      cwd: 'release/',
       dest: '<%= pkg.version %>',
+      expand: true
+    }, {
+      src: 'download-me.html',
+      cwd: 'release/',
+      dest: '',
       expand: true
     }]
   }

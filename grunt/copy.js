@@ -23,5 +23,14 @@ module.exports = {
       dest: 'dist/',
       nonull: true
     }]
+  },
+  release: {
+    files: [{
+      expand: true,
+      cwd: 'dist/',
+      src: ['**'],
+      dest: 'release/',
+      nonull: true
+    }]
   }
 };

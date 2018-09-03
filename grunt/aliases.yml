@@ -4,11 +4,12 @@
 test:
   - 'eslint'
 
-build:
+release:
   - 'copy:icons'
   - 'copy:favicons'
   - 'cssmin'
   - 'uglify'
-
-release:
-  - 'compress'
+  - 'copy:release'
+  - 'compile-handlebars'
+  - 'compress:releaseCdn'
+  - 'compress:releaseDist'
