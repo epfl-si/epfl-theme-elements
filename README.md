@@ -33,6 +33,10 @@ Resources distributed
 -- Includes download (last version):
 `wget -P /var/www/mywebsite/header -N -nd -r -l 1 https://web2018.epfl.ch/download-me.html`
 
+Example
+-------
+* [Page Base](example/page-base.html)
+
 Contributing
 ------------
 
