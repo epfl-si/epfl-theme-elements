@@ -29,6 +29,12 @@ Resources distributed
 * https://web2018.epfl.ch/X.Y.Z/includes/footer-scripts.html
 * https://web2018.epfl.ch/X.Y.Z/includes/footer-light-en.html
 * https://web2018.epfl.ch/X.Y.Z/includes/footer-light-fr.html
+* https://web2018.epfl.ch/X.Y.Z/includes/search-fr.html
+* https://web2018.epfl.ch/X.Y.Z/includes/search-en.html
+* https://web2018.epfl.ch/X.Y.Z/includes/header-light-fr.html
+* https://web2018.epfl.ch/X.Y.Z/includes/header-light-en.html
+* https://web2018.epfl.ch/X.Y.Z/includes/mobile-menu.html
+
 
 -- Includes download (last version):
 `wget -P /var/www/mywebsite/header -N -nd -r -l 1 https://web2018.epfl.ch/download-me.html`
