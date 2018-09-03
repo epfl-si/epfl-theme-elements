@@ -6,10 +6,32 @@ epfl-theme-elements
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/epfl-theme-elements.svg)](https://www.npmjs.com/package/epfl-theme-elements)
 
-Overview
---------
+Links
+-----
+* [Elements Documentation](https://epfl-idevelop.github.io/elements/#/)
 
-WIP
+Resources distributed
+---------------------
+**CSS**
+* https://web2018.epfl.ch/X.Y.Z/css/elements.min.css
+
+**JS**
+* https://web2018.epfl.ch/X.Y.Z/js/elements.min.js
+
+**Icons**
+* https://web2018.epfl.ch/X.Y.Z/icons/epfl-logo.svg
+* https://web2018.epfl.ch/X.Y.Z/icons/icons.svg
+* https://web2018.epfl.ch/X.Y.Z/icons/favicon.ico
+* https://web2018.epfl.ch/X.Y.Z/icons/favicon.png
+
+**Includes**
+* https://web2018.epfl.ch/X.Y.Z/includes/head.html
+* https://web2018.epfl.ch/X.Y.Z/includes/footer-scripts.html
+* https://web2018.epfl.ch/X.Y.Z/includes/footer-light-en.html
+* https://web2018.epfl.ch/X.Y.Z/includes/footer-light-fr.html
+
+-- Includes download (last version):
+`wget -P /var/www/mywebsite/header -N -nd -r -l 1 https://web2018.epfl.ch/download-me.html`
 
 Contributing
 ------------
