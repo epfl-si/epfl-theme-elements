@@ -34,6 +34,7 @@ Resources distributed
 * https://web2018.epfl.ch/X.Y.Z/includes/drawer-fr.html
 * https://web2018.epfl.ch/X.Y.Z/includes/drawer-en.html
 * https://web2018.epfl.ch/X.Y.Z/includes/mobile-menu.html
+* https://web2018.epfl.ch/X.Y.Z/includes/logo.html
 
 
 -- Includes download (last version):
