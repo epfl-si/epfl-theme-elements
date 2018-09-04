@@ -31,8 +31,8 @@ Resources distributed
 * https://web2018.epfl.ch/X.Y.Z/includes/footer-light-fr.html
 * https://web2018.epfl.ch/X.Y.Z/includes/search-fr.html
 * https://web2018.epfl.ch/X.Y.Z/includes/search-en.html
-* https://web2018.epfl.ch/X.Y.Z/includes/header-light-fr.html
-* https://web2018.epfl.ch/X.Y.Z/includes/header-light-en.html
+* https://web2018.epfl.ch/X.Y.Z/includes/drawer-fr.html
+* https://web2018.epfl.ch/X.Y.Z/includes/drawer-en.html
 * https://web2018.epfl.ch/X.Y.Z/includes/mobile-menu.html
 
 
