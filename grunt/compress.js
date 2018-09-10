@@ -29,7 +29,7 @@ module.exports = {
       dest: '<%= pkg.version %>',
       expand: true
     }, {
-      src: 'download-me.html',
+      src: '*.html',
       cwd: 'release/',
       dest: '',
       expand: true
