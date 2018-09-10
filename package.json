@@ -1,11 +1,12 @@
 {
   "name": "epfl-theme-elements",
   "version": "0.0.2",
-  "description": "EPFL Web Styleguide 2018 based on elements",
+  "description": "EPFL Web 2018 Styleguide based on elements",
   "keywords": [
     "EPFL",
     "theme",
-    "elements"
+    "elements",
+    "web2018"
   ],
   "author": "William Belle <william.belle@gmail.com>",
   "contributors": [
@@ -34,8 +35,9 @@
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-uglify": "^3.4.0",
     "grunt-eslint": "^21.0.0",
-    "jquery": "3.3.1",
     "load-grunt-config": "^0.19.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "3.3.1"
+  }
 }
