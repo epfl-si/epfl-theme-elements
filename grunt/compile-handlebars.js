@@ -28,6 +28,10 @@ module.exports = {
       dest: 'release/',
       ext: '.html'
     }],
+    partials: [
+      'src/includes/partials/*.html',
+      'src/includes/full/*.html'
+    ],
     globals: [{
       VERSION: '<%= pkg.version %>'
     }]

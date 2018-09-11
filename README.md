@@ -1,48 +1,50 @@
 epfl-theme-elements
 ===================
 
+EPFL Web 2018 Styleguide based on elements
+
 [![Build Status](https://travis-ci.org/epfl-idevelop/epfl-theme-elements.svg?branch=master)](https://travis-ci.org/epfl-idevelop/epfl-theme-elements)
 [![Dependencies Status](https://david-dm.org/epfl-idevelop/epfl-theme-elements/status.svg)](https://david-dm.org/epfl-idevelop/epfl-theme-elements)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/epfl-theme-elements.svg)](https://www.npmjs.com/package/epfl-theme-elements)
 
-Links
------
-* [Elements Documentation](https://epfl-idevelop.github.io/elements/#/)
+Quick start
+-----------
 
-Resources distributed
----------------------
-**CSS**
-* https://web2018.epfl.ch/X.Y.Z/css/elements.min.css
+Several quick start options are available:
 
-**JS**
-* https://web2018.epfl.ch/X.Y.Z/js/elements.min.js
+  * [Web2018](https://web2018.epfl.ch)
+  * [Download the latest release](https://github.com/epfl-idevelop/epfl-theme-elements/releases/latest)
+  * Install with [npm](https://www.npmjs.com/package/epfl-theme-elements): `npm install epfl-theme-elements`
 
-**Icons**
-* https://web2018.epfl.ch/X.Y.Z/icons/epfl-logo.svg
-* https://web2018.epfl.ch/X.Y.Z/icons/icons.svg
-* https://web2018.epfl.ch/X.Y.Z/icons/favicon.ico
-* https://web2018.epfl.ch/X.Y.Z/icons/favicon.png
+Read the [Getting started page](https://web2018.epfl.ch) for more information.
 
-**Includes**
-* https://web2018.epfl.ch/X.Y.Z/includes/head.html
-* https://web2018.epfl.ch/X.Y.Z/includes/footer-scripts.html
-* https://web2018.epfl.ch/X.Y.Z/includes/footer-light-en.html
-* https://web2018.epfl.ch/X.Y.Z/includes/footer-light-fr.html
-* https://web2018.epfl.ch/X.Y.Z/includes/search-fr.html
-* https://web2018.epfl.ch/X.Y.Z/includes/search-en.html
-* https://web2018.epfl.ch/X.Y.Z/includes/drawer-fr.html
-* https://web2018.epfl.ch/X.Y.Z/includes/drawer-en.html
-* https://web2018.epfl.ch/X.Y.Z/includes/mobile-menu.html
-* https://web2018.epfl.ch/X.Y.Z/includes/logo.html
+What's included
+---------------
 
+Within the download you'll find the following directories and files,
+logically grouping common assets and providing minified versions.
+You'll see something like this:
 
--- Includes download (last version):
-`wget -P /var/www/mywebsite/header -N -nd -r -l 1 https://web2018.epfl.ch/download-me.html`
+```
+dist/
+├──css/
+│  └── elements.min.css
+├──icons/
+│  ├── icons.svg
+│  ├── favicon.png
+│  ├── favicon.ico
+│  └── epfl-logo.svg
+└──js/
+   └── elements.min.js
+```
 
-Example
--------
-* [Page Base](example/page-base.html)
+Documentation
+-------------
+
+  * [Web2018](https://web2018.epfl.ch)
+  * [Elements](https://epfl-idevelop.github.io/elements/#/)
+  * [Bootstrap](https://getbootstrap.com/)
 
 Contributing
 ------------
