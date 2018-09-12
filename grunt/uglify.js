@@ -7,9 +7,9 @@
 
 module.exports = {
   options: {
-    compress: {
-      drop_console: true
-    },
+    beautify: false,
+    mangle: false,
+    compress: false,
     output: {
       comments: /^!/
     }
