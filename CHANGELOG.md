@@ -1,6 +1,14 @@
 EPFL Theme Elements
 ===================
 
+### v0.0.3 / 2018-09-12
+
+- Update to Elements [1.3.0](https://github.com/epfl-idevelop/elements/releases/tag/1.3.0)
+- Improve `CONTRIBUTING.md`
+- Enhance documentation
+- Fix example
+- Fix uglify task
+
 ### v0.0.2 / 2018-09-04
 
 - Add includes (html parts of web2018)
