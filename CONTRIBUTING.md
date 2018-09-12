@@ -37,7 +37,7 @@ Release
 
   1. Update the file [CHANGELOG.md](CHANGELOG.md)
   2. Update the version in the file [package.json](package.json)
-  3. Build an commit the `dist` folder
+  3. Build and commit the `dist` folder
   4. Publish with ``npm publish``
 
 Deploy
