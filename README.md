@@ -31,10 +31,12 @@ dist/
 ├──css/
 │  └── elements.min.css
 ├──icons/
-│  ├── icons.svg
-│  ├── favicon.png
+│  ├── apple-touch-icon.png
+│  ├── epfl-logo.svg
+│  ├── favicon-16.png
+│  ├── favicon-32.png
 │  ├── favicon.ico
-│  └── epfl-logo.svg
+│  └── icons.svg
 └──js/
    └── elements.min.js
 ```
