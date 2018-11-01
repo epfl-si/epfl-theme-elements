@@ -6,7 +6,6 @@ test:
 
 release:
   - 'copy:icons'
-  - 'copy:favicons'
   - 'cssmin'
   - 'uglify'
   - 'copy:release'

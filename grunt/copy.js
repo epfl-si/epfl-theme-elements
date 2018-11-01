@@ -15,15 +15,6 @@ module.exports = {
       nonull: true
     }]
   },
-  favicons: {
-    files: [{
-      expand: true,
-      cwd: 'src/',
-      src: ['icons/**'],
-      dest: 'dist/',
-      nonull: true
-    }]
-  },
   release: {
     files: [{
       expand: true,
