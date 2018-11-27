@@ -33,7 +33,8 @@ module.exports = {
       'src/includes/full/*.html'
     ],
     globals: [{
-      VERSION: '<%= pkg.version %>'
+      VERSION: '<%= pkg.version %>',
+      YEAR: (new Date()).getFullYear().toString()
     }]
   }
 };
