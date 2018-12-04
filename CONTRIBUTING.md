@@ -35,10 +35,12 @@ and check the `dist` and `release` folders.
 Release
 -------
 
-  1. Update the file [CHANGELOG.md](CHANGELOG.md)
-  2. Update the version in the file [package.json](package.json)
+  1. Update [CHANGELOG.md](CHANGELOG.md)
+  2. Update the version in [package.json](package.json)
   3. Build and commit the `dist` folder
-  4. Publish with ``npm publish``
+  4. Deploy and tagging (check below)
+  5. Create the release package in GitHub
+  6. Publish with ``npm publish``
 
 Deploy
 ------
@@ -58,6 +60,12 @@ Then on each server:
 ./web2018.sh deploy <archive>
 ```
 
+Tagging
+-------
+```bash
+git tag -a v<version> -m "EPFL Theme Elements -  <version>"
+git push --tags
+```
 
 License
 -------
