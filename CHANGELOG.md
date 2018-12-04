@@ -1,6 +1,19 @@
 EPFL Theme Elements
 ===================
 
+### v1.0.0 / 2018-12-04
+
+- First stable release
+- Update to Elements [1.3.5](https://github.com/epfl-idevelop/elements/releases/tag/1.3.5)
+- Add Youtube icon in footer
+- GA: move to gtag
+- Update dependencies
+- Remove useless div
+- Fix copyright date
+- Fix mobile menu position
+- Fix social link behaviour
+- Fix id of search
+
 ### v0.0.4 / 2018-11-08
 
 - Update to Elements [1.3.3](https://github.com/epfl-idevelop/elements/releases/tag/1.3.3)
