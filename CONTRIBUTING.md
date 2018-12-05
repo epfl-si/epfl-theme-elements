@@ -63,7 +63,7 @@ Then on each server:
 Tagging
 -------
 ```bash
-git tag -a v<version> -m "EPFL Theme Elements -  <version>"
+git tag -a v<version> -m "EPFL Theme Elements - <version>"
 git push --tags
 ```
 
