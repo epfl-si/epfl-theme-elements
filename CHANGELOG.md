@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v1.0.1 / 2018-12-11
+
+- Update to Elements [1.3.6](https://github.com/epfl-idevelop/elements/releases/tag/1.3.6)
+- Add LinkedIn icon in footer
+- Fix href of logo in header
+- Improve contributing guide
+
 ### v1.0.0 / 2018-12-04
 
 - First stable release
