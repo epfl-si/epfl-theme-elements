@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v1.0.2 / 2018-12-19
+
+- Update to Elements [1.3.7](https://github.com/epfl-idevelop/elements/releases/tag/1.3.7)
+- Replace Disclaimer with Legal Notice in footer
+- Update Legal Notice link to avoid redirection
+- Update `load-grunt-config` dependency
+
 ### v1.0.1 / 2018-12-11
 
 - Update to Elements [1.3.6](https://github.com/epfl-idevelop/elements/releases/tag/1.3.6)
