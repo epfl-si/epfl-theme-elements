@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v1.0.3 / 2019-03-11
+
+- Update to Elements [1.3.9](https://github.com/epfl-idevelop/elements/releases/tag/1.3.9)
+- Remove Google+ link in footer
+
 ### v1.0.2 / 2018-12-19
 
 - Update to Elements [1.3.7](https://github.com/epfl-idevelop/elements/releases/tag/1.3.7)
