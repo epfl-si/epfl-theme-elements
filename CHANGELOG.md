@@ -1,6 +1,10 @@
 EPFL Theme Elements
 ===================
 
+### v2.0.0 / 2019-03-11
+
+- Update to Elements [2.0.0](https://github.com/epfl-idevelop/elements/releases/tag/2.0.0)
+
 ### v1.0.3 / 2019-03-11
 
 - Update to Elements [1.3.9](https://github.com/epfl-idevelop/elements/releases/tag/1.3.9)
