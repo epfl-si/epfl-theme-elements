@@ -19,7 +19,27 @@
       <!-- Place here the logo part: https://web2018.epfl.ch/X.Y.Z/includes/logo.html -->
 
       <h1>Example Home</h1>
-      <ul aria-hidden="true" class="nav-header d-none d-xl-flex"></ul>
+
+      <ul aria-hidden="true" class="nav-header d-none d-xl-flex">
+        <li class="dropdown">
+          <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Group A
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link A.1</a>
+            <a class="dropdown-item" href="#">Link A.2</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Group B
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link B.1</a>
+            <a class="dropdown-item" href="#">Link B.2</a>
+          </div>
+        </li>
+      </ul>
 
       <!-- Place here the search part: https://web2018.epfl.ch/X.Y.Z/includes/search-en.html -->
 
@@ -41,6 +61,86 @@
   </header>
 
   <div class="main-container">
+
+    <div class="overlay"></div>
+    <nav class="nav-main" id="main-navigation">
+      <div class="nav-wrapper">
+        <div class="nav-container current-menu-parent">
+          <ul class="nav-menu">
+            <li class="menu-item-has-children">
+              <a href="#" role="button">Group A</a>
+              <ul>
+                <li class="nav-back d-xl-none">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-arrow-left"></use>
+                    </svg>
+                    Group A
+                  </a>
+                </li>
+                <li class="nav-home d-none d-xl-block">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-home"></use>
+                    </svg>
+                    <span class="text-muted">›</span>
+                    Group A
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Link A.1</a>
+                </li>
+                <li>
+                  <a href="">Link A.2</a>
+                </li>
+              </ul>
+              <a href="#" role="button" aria-hidden="true" class="nav-arrow">
+                <div class="icon-container">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-chevron-right"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#" role="button">Group B</a>
+              <ul>
+                <li class="nav-back d-xl-none">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-arrow-left"></use>
+                    </svg>
+                    Group B
+                  </a>
+                </li>
+                <li class="nav-home d-none d-xl-block">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-home"></use>
+                    </svg>
+                    <span class="text-muted">›</span>
+                    Group B
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Link B.1</a>
+                </li>
+                <li>
+                  <a href="#">Link B.2</a>
+                </li>
+              </ul>
+              <a href="#" role="button" aria-hidden="true" class="nav-arrow">
+                <div class="icon-container">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-chevron-right"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Breadcrumb - Example -->
     <div class="breadcrumb-container">
