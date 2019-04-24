@@ -10,7 +10,7 @@ module.exports = {
     options: {
       patterns: [{
         match: /<FONTS_PATH>/g,
-        replacement: 'https://web2018.epfl.ch/2.0.0/fonts/'
+        replacement: 'https://web2018.epfl.ch/2.0.0/fonts'
       }]
     },
     files: [{
