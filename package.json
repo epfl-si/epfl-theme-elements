@@ -35,6 +35,7 @@
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-uglify": "^4.0.0",
     "grunt-eslint": "^21.0.0",
+    "grunt-replace": "^1.0.1",
     "load-grunt-config": "^1.0.1"
   },
   "dependencies": {
