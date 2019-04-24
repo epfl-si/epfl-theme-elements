@@ -9,6 +9,7 @@ release:
   - 'cssmin'
   - 'uglify'
   - 'copy:release'
+  - 'copy:robots'
   - 'compile-handlebars'
   - 'compress:releaseCdn'
   - 'compress:releaseDist'

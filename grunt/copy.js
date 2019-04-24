@@ -1,5 +1,5 @@
 /*
- * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018.
+ * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2019.
  * See the LICENSE file for more details.
  */
 
@@ -20,6 +20,15 @@ module.exports = {
       expand: true,
       cwd: 'dist/',
       src: ['**'],
+      dest: 'release/',
+      nonull: true
+    }]
+  },
+  robots: {
+    files: [{
+      expand: true,
+      cwd: 'src/',
+      src: ['robots.txt'],
       dest: 'release/',
       nonull: true
     }]
