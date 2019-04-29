@@ -32,7 +32,27 @@
       {{> logo }}
 
       <h1>Web2018</h1>
-      <ul aria-hidden="true" class="nav-header d-none d-xl-flex"></ul>
+
+      <ul aria-hidden="true" class="nav-header d-none d-xl-flex">
+        <li class="dropdown">
+          <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Documentation
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://getbootstrap.com/" rel="noopener" target="_blank">Bootstrap</a>
+            <a class="dropdown-item" href="https://epfl-idevelop.github.io/elements/#/" rel="noopener" target="_blank">Elements</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Examples
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://actu.epfl.ch" rel="noopener" target="_blank">Actu</a>
+            <a class="dropdown-item" href="https://archiveweb.epfl.ch" rel="noopener" target="_blank">Web Archives</a>
+          </div>
+        </li>
+      </ul>
 
       {{> search-en }}
 
@@ -51,6 +71,86 @@
   </header>
 
   <div class="main-container">
+
+    <div class="overlay"></div>
+    <nav class="nav-main" id="main-navigation">
+      <div class="nav-wrapper">
+        <div class="nav-container current-menu-parent">
+          <ul class="nav-menu">
+            <li class="menu-item-has-children">
+              <a href="#" role="button">Documentation</a>
+              <ul>
+                <li class="nav-back d-xl-none">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-arrow-left"></use>
+                    </svg>
+                    Documentation
+                  </a>
+                </li>
+                <li class="nav-home d-none d-xl-block">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-home"></use>
+                    </svg>
+                    <span class="text-muted">›</span>
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a href="https://getbootstrap.com/" rel="noopener" target="_blank">Bootstrap</a>
+                </li>
+                <li>
+                  <a href="https://epfl-idevelop.github.io/elements/#/" rel="noopener" target="_blank">Elements</a>
+                </li>
+              </ul>
+              <a href="#" role="button" aria-hidden="true" class="nav-arrow">
+                <div class="icon-container">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-chevron-right"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#" role="button">Examples</a>
+              <ul>
+                <li class="nav-back d-xl-none">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-arrow-left"></use>
+                    </svg>
+                    Examples
+                  </a>
+                </li>
+                <li class="nav-home d-none d-xl-block">
+                  <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                      <use xlink:href="#icon-home"></use>
+                    </svg>
+                    <span class="text-muted">›</span>
+                    Examples
+                  </a>
+                </li>
+                <li>
+                  <a href="https://actu.epfl.ch" rel="noopener" target="_blank">Actu</a>
+                </li>
+                <li>
+                  <a href="https://archiveweb.epfl.ch" rel="noopener" target="_blank">Web Archives</a>
+                </li>
+              </ul>
+              <a href="#" role="button" aria-hidden="true" class="nav-arrow">
+                <div class="icon-container">
+                  <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-chevron-right"></use>
+                  </svg>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Breadcrumb - Example -->
     <div class="breadcrumb-container">
@@ -171,19 +271,6 @@
               <a href="https://www.npmjs.com/package/epfl-theme-elements">the npm package</a>:
             </p>
             <pre><code class="language-bash">npm install epfl-theme-elements</code></pre>
-
-            <h2 id="doc" class="my-4">Documentation</h2>
-
-            <ul>
-              <li><a href="https://epfl-idevelop.github.io/elements/#/">Elements</a></li>
-              <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-            </ul>
-
-            <h2 id="examples" class="my-4">Example</h2>
-
-            <ul>
-              <li><a href="https://search.epfl.ch">https://search.epfl.ch</a></li>
-            </ul>
           </div>
         </main>
       </div>
@@ -202,12 +289,6 @@
             </li>
             <li >
               <a href="#npm">npm</a>
-            </li>
-            <li >
-              <a href="#doc">Documentation</a>
-            </li>
-            <li >
-              <a href="#examples">Examples</a>
             </li>
           </ul>
         </nav>
