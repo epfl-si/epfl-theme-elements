@@ -1,0 +1,54 @@
+/*
+ * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2019.
+ * See the LICENSE file for more details.
+ */
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-weight: 400;
+  src: url('<FONTS_PATH>/SuisseIntl-Regular-WebS.eot');
+  src: url('<FONTS_PATH>/SuisseIntl-Regular-WebS.eot?#iefix') format('embedded-opentype'),
+       url('<FONTS_PATH>/SuisseIntl-Regular-WebS.woff2') format('woff2'),
+       url('<FONTS_PATH>/SuisseIntl-Regular-WebS.woff') format('woff'),
+       url('<FONTS_PATH>/SuisseIntl-Regular-WebS.ttf') format('truetype'),
+       url('<FONTS_PATH>/SuisseIntl-Regular-WebS.svg#svgFontName') format('svg')
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-weight: 400;
+  font-style: italic;
+  src: url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.eot');
+  src: url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.eot?#iefix') format('embedded-opentype'),
+       url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.woff2') format('woff2'),
+       url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.woff') format('woff'),
+       url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.ttf') format('truetype'),
+       url('<FONTS_PATH>/SuisseIntl-RegularItalic-WebS.svg#svgFontName') format('svg')
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-weight: 700;
+  src: url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.eot');
+  src: url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.eot?#iefix') format('embedded-opentype'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.woff2') format('woff2'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.woff') format('woff'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.ttf') format('truetype'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.svg#svgFontName') format('svg')
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-weight: 700;
+  font-style: italic;
+  src: url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.eot');
+  src: url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.eot?#iefix') format('embedded-opentype'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.woff2') format('woff2'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.woff') format('woff'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.ttf') format('truetype'),
+       url('<FONTS_PATH>/SuisseIntl-SemiBoldItalic-WebS.svg#svgFontName') format('svg')
+}
+
+body {
+  font-family: 'SuisseIntl', Arial, sans-serif !important
+}
