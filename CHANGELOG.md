@@ -1,6 +1,15 @@
 EPFL Theme Elements
 ===================
 
+### v2.1.0 / 2019-04-30
+
+- Update to Elements [2.0.2](https://github.com/epfl-idevelop/elements/releases/tag/2.0.2)
+- Add SuisseIntl fonts
+- Add access navigation templates
+- Add `robots.txt`
+- Add menu example
+- Update meta theme-color
+
 ### v2.0.0 / 2019-03-11
 
 - Update to Elements [2.0.0](https://github.com/epfl-idevelop/elements/releases/tag/2.0.0)
