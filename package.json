@@ -39,6 +39,6 @@
     "load-grunt-config": "^1.0.1"
   },
   "dependencies": {
-    "jquery": "3.3.1"
+    "jquery": "3.4.1"
   }
 }
