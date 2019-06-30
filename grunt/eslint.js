@@ -13,7 +13,6 @@ module.exports = {
     '**/*.js',
     '!node_modules/**/*.js',
     '!tmp/**/*.js',
-    '!bower_components/**/*.js',
     '!dist/**/*.js',
     '!release/**/*.js'
   ]
