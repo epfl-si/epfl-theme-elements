@@ -11,7 +11,8 @@ module.exports = {
       'dist/css/elements.min.css': [
         'tmp/css/base.css',
         'tmp/css/vendors.min.css',
-        'tmp/css/fonts.css'
+        'tmp/css/fonts.css',
+        'src/css/utilities.css'
       ]
     }
   }
