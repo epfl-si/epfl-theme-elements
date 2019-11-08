@@ -6,6 +6,14 @@
 'use strict';
 
 module.exports = {
+  tmpCloudflare: {
+    files: {
+      'tmp/css/css-elements-for-cloudflare-custom-pages.min.css': [
+        'tmp/css/base.css',
+        'src/css/utilities.css'
+      ]
+    }
+  },
   dist: {
     files: {
       'dist/css/elements.min.css': [

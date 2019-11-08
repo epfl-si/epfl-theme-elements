@@ -20,6 +20,25 @@ module.exports = {
       YEAR: (new Date()).getFullYear().toString()
     }]
   },
+  cloudflareCustomPages: {
+    files: [{
+      cwd: 'src/cloudflare_custom_pages',
+      expand: true,
+      src: '*.html',
+      dest: 'release/cloudflare_custom_pages',
+      ext: '.html'
+    }],
+    partials: [
+      'src/includes/partials/*.html',
+      'src/includes/full/*.html',
+      'tmp/css/*.css',
+      'tmp/js/*.js'
+    ],
+    globals: [{
+      VERSION: '<%= pkg.version %>',
+      YEAR: (new Date()).getFullYear().toString()
+    }]
+  },
   download: {
     files: [{
       cwd: 'src',

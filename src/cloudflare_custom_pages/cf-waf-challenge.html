@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Challenge CAPTCHA required - EPFL</title>
+  <meta charset="utf-8" />
+
+  <style>
+    {{> css-elements-for-cloudflare-custom-pages.min }}
+  </style>
+</head>
+
+<body>
+
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-en }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Challenge CAPTCHA required</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <!-- Main... -->
+      <div class="w-100 pb-5">
+        <main id="main" class="content container">
+          <h2 class="mb-3">One more step</h2>
+          <div class="mb-5">
+            <p>Please complete the security check to access epfl.ch or contact <a href="mailto:1234@epfl.ch">1234@epfl.ch</a>.</p>
+            ::CAPTCHA_BOX::
+          </div>
+          <h5 class="mb-2">Why do I have to complete a CAPTCHA?</h5>
+          <div class="mb-5">
+            <p>Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+          <h5 class="mb-2">What can I do to prevent this in the future?</h5>
+          <div class="mb-4">
+            <p>If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+            <p>If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-en }}
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    svgPath = 'https://web2018.epfl.ch/{{VERSION}}/icons/icons.svg';
+  </script>
+
+  <script>
+    {{> js-elements-for-cloudflare-custom-pages.min }}
+  </script>
+
+</body>
+
+</html>

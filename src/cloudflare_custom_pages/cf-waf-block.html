@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Blocked - EPFL</title>
+  <meta charset="utf-8" />
+
+  <style>
+    {{> css-elements-for-cloudflare-custom-pages.min }}
+  </style>
+</head>
+
+<body>
+
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-en }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Blocked</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <!-- Main... -->
+      <div class="w-100 pb-5">
+        <main id="main" class="content container">
+          <h2 class="mb-3">Sorry, you have been blocked</h2>
+          <div class="mb-5">
+            <p>You are unable to access epfl.ch.</p>
+          </div>
+          <h5 class="mb-2">Why have I been blocked?</h5>
+          <div class="mb-5">
+            <p>This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>
+          </div>
+          <h5 class="mb-2">What can I do to resolve this?</h5>
+          <div class="mb-4">
+            <p>You can contact <a href="mailto:1234@epfl.ch">1234@epfl.ch</a>.</p>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-en }}
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    svgPath = 'https://web2018.epfl.ch/{{VERSION}}/icons/icons.svg';
+  </script>
+
+  <script>
+    {{> js-elements-for-cloudflare-custom-pages.min }}
+  </script>
+
+</body>
+
+</html>
