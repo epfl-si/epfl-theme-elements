@@ -10,6 +10,7 @@ module.exports = {
     files: {
       'tmp/css/css-elements-for-cloudflare-custom-pages.min.css': [
         'tmp/css/base.css',
+        'tmp/css/vendors.min.css',
         'src/css/utilities.css'
       ]
     }
