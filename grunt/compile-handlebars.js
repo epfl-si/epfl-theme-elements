@@ -20,12 +20,12 @@ module.exports = {
       YEAR: (new Date()).getFullYear().toString()
     }]
   },
-  cloudflareCustomPages: {
+  errors: {
     files: [{
-      cwd: 'src/cloudflare_custom_pages',
+      cwd: 'src/errors',
       expand: true,
       src: '*.html',
-      dest: 'release/cloudflare_custom_pages',
+      dest: 'release/errors',
       ext: '.html'
     }],
     partials: [
