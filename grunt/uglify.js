@@ -14,15 +14,6 @@ module.exports = {
       comments: /^!/
     }
   },
-  tmpCloudflare: {
-    files: {
-      'tmp/js/js-elements-for-cloudflare-custom-pages.min.js': [
-        'node_modules/jquery/dist/jquery.min.js',
-        'tmp/js/vendors.bundle.js',
-        'tmp/js/app.bundle.js'
-      ]
-    }
-  },
   dist: {
     files: {
       'dist/js/elements.min.js': [
