@@ -5,6 +5,9 @@
 
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+
 module.exports = {
   includes: {
     files: [{
@@ -18,6 +21,29 @@ module.exports = {
     globals: [{
       VERSION: '<%= pkg.version %>',
       YEAR: (new Date()).getFullYear().toString()
+    }]
+  },
+  errors: {
+    files: [{
+      cwd: 'src/errors',
+      expand: true,
+      src: '*.html',
+      dest: 'release/errors',
+      ext: '.html'
+    }],
+    partials: [
+      'src/includes/partials/*.html',
+      'src/includes/full/*.html',
+      'tmp/css/*.css'
+    ],
+    globals: [{
+      VERSION: '<%= pkg.version %>',
+      YEAR: (new Date()).getFullYear().toString(),
+      FULL_JS: function () {
+        return fs.readFileSync(
+          path.join(__dirname, '/../dist/js/elements.min.js'), 'utf-8'
+        );
+      }
     }]
   },
   download: {
