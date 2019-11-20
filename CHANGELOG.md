@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v4.0.0 / 2019-11-20
+
+- Update to Elements [2.2.1](https://github.com/epfl-idevelop/elements/releases/tag/2.2.1)
+- Add custom Cloudflare error pages (WAF)
+
 ### v3.0.0 / 2019-11-04
 
 - Update to Elements [2.1.0](https://github.com/epfl-idevelop/elements/releases/tag/2.1.0)
