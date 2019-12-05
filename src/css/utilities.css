@@ -42,3 +42,17 @@
 .text-xl {
   font-size: 1.25rem;
 }
+
+/* Utilities for controlling the decoration of text */
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-underline {
+  text-decoration: none;
+}
