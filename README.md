@@ -1,23 +1,53 @@
-epfl-theme-elements
-===================
+<p align="center">
+  <a href="https://web2018.epfl.ch">
+    <img src="https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/docs/readme/logo.png" alt="EPFL Theme Elements logo" width="100" height="100">
+  </a>
+</p>
 
-EPFL Web 2018 Styleguide based on elements
+<h3 align="center">
+  EPFL Theme Elements
+</h3>
 
-[![Build Status](https://travis-ci.org/epfl-idevelop/epfl-theme-elements.svg?branch=master)](https://travis-ci.org/epfl-idevelop/epfl-theme-elements)
-[![Dependencies Status](https://david-dm.org/epfl-idevelop/epfl-theme-elements/status.svg)](https://david-dm.org/epfl-idevelop/epfl-theme-elements)
-[![Apache License 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/LICENSE)
-[![NPM Version](https://img.shields.io/npm/v/epfl-theme-elements.svg)](https://www.npmjs.com/package/epfl-theme-elements)
+<p align="center">
+  EPFL Web2018 Theme based on Elements.
+</p>
+
+<p align="center">
+  <a href="https://travis-ci.org/epfl-idevelop/epfl-theme-elements">
+    <img alt="Build Status" src="https://travis-ci.org/epfl-idevelop/epfl-theme-elements.svg?branch=master">
+  </a>
+  <a href="https://david-dm.org/epfl-idevelop/epfl-theme-elements">
+    <img alt="Dependencies Status" src="https://david-dm.org/epfl-idevelop/epfl-theme-elements/status.svg"/>
+  </a>
+  <a href="https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/LICENSE">
+    <img alt="Apache License 2.0" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg">
+  </a>
+  <a href="https://www.npmjs.com/package/epfl-theme-elements">
+    <img alt="npm version" src="https://img.shields.io/npm/v/epfl-theme-elements.svg" />
+  </a>
+</p>
+
+---
+
+Documentation
+-------------
+
+* [EPFL Theme Elements](https://github.com/epfl-idevelop/epfl-theme-elements/wiki)
+* [Elements](https://epfl-idevelop.github.io/elements/#/)
+* [Bootstrap](https://getbootstrap.com/)
 
 Quick start
 -----------
 
 Several quick start options are available:
 
-  * [Web2018](https://web2018.epfl.ch)
-  * [Download the latest release](https://github.com/epfl-idevelop/epfl-theme-elements/releases/latest)
-  * Install with [npm](https://www.npmjs.com/package/epfl-theme-elements): `npm install epfl-theme-elements`
+* [Web2018 CDN](https://github.com/epfl-idevelop/epfl-theme-elements/wiki/Web2018-CDN)
+* [Download the latest release](https://github.com/epfl-idevelop/epfl-theme-elements/releases/latest)
+* Install with [npm](https://www.npmjs.com/package/epfl-theme-elements): `npm install epfl-theme-elements`
+* Install with [yarn](https://yarnpkg.com/en/package/epfl-theme-elements): `yarn add epfl-theme-elements`
 
-Read the [Getting started page](https://web2018.epfl.ch) for more information.
+Read the [Wiki](https://github.com/epfl-idevelop/epfl-theme-elements/wiki/Technical-documentation)
+for more information.
 
 What's included
 ---------------
@@ -41,12 +71,11 @@ dist/
    └── elements.min.js
 ```
 
-Documentation
--------------
+Applications Showcase
+---------------------
 
-  * [Web2018](https://web2018.epfl.ch)
-  * [Elements](https://epfl-idevelop.github.io/elements/#/)
-  * [Bootstrap](https://getbootstrap.com/)
+* [Actu](https://actu.epfl.ch)
+* [Memento](https://memento.epfl.ch)
 
 Contributing
 ------------
@@ -55,17 +84,22 @@ Contributions are always welcome.
 
 See [Contributing](CONTRIBUTING.md).
 
+Versioning
+----------
+
+EPFL Theme Elements is maintained under the Semantic Versioning guidelines.
+
 Developers
 ----------
 
-  * [Olivier Bieler](https://github.com/obieler)
-  * [William Belle](https://github.com/williambelle)
+* [Olivier Bieler](https://github.com/obieler)
+* [William Belle](https://github.com/williambelle)
 
 License
 -------
 
 Apache License 2.0
 
-(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018.
+(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2019.
 
 See the [LICENSE](LICENSE) file for more details.
