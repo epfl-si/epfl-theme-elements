@@ -1,6 +1,19 @@
 EPFL Theme Elements
 ===================
 
+### v4.0.0 / 2019-11-20
+
+- Update to Elements [2.2.1](https://github.com/epfl-idevelop/elements/releases/tag/2.2.1)
+- Add custom Cloudflare error pages (WAF)
+
+### v3.0.0 / 2019-11-04
+
+- Update to Elements [2.1.0](https://github.com/epfl-idevelop/elements/releases/tag/2.1.0)
+- Update jQuery to 3.4.1
+- Add utilities for controlling the font size of an element
+- Add utilities to set the width and height relative to the viewport
+- Remove reference to bower in grunt eslint
+
 ### v2.1.0 / 2019-04-30
 
 - Update to Elements [2.0.2](https://github.com/epfl-idevelop/elements/releases/tag/2.0.2)
