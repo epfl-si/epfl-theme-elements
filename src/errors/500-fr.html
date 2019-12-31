@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Erreur interne du serveur - EPFL</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Erreur interne du serveur - EPFL" />
+
+  {{> head }}
+
+</head>
+<body>
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-fr }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Erreur interne du serveur</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <div class="w-100 pb-5">
+        <main id="main" class="content container">
+          <h1>Erreur interne du serveur</h1>
+          <p>
+            Les responsables de cette application ont reçu un email décrivant le problème rencontré.
+            Nous vous prions de nous excuser pour ce désagrément.
+          </p>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-fr }}
+      </div>
+    </div>
+
+  </div>
+
+  {{> footer-scripts }}
+</body>
+</html>
