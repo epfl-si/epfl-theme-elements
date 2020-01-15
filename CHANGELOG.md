@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v4.1.0 / 2020-01-15
+
+- Add utilities for controlling the decoration of text
+- Add GitHub Wiki
+- Improve `README.md`
+- Update dev dependencies
+
 ### v4.0.0 / 2019-11-20
 
 - Update to Elements [2.2.1](https://github.com/epfl-idevelop/elements/releases/tag/2.2.1)
