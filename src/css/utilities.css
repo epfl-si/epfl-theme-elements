@@ -103,7 +103,7 @@
   text-decoration: none;
 }
 
-/* Utility for prevent long strings of text breaking layout */
+/* Utility for preventing long strings of text breaking layout */
 
 .text-break {
   word-break: break-word !important;
