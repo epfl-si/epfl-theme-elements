@@ -8,8 +8,8 @@ Setup
 -----
 
 ```bash
-git clone git@github.com:epfl-idevelop/elements.git
-git clone git@github.com:epfl-idevelop/epfl-theme-elements.git
+git clone git@github.com:epfl-si/elements.git
+git clone git@github.com:epfl-si/epfl-theme-elements.git
 cd elements
 yarn
 cd ../epfl-theme-elements
