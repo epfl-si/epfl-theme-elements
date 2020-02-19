@@ -1,6 +1,12 @@
 EPFL Theme Elements
 ===================
 
+### v4.2.0 / 2020-02-20
+
+- Add EPFL error pages (400, 403, 404, 500, 503)
+- Add more utilities (opacity, text-break)
+- Update links on GitHub EPFL organization
+
 ### v4.1.0 / 2020-01-15
 
 - Add utilities for controlling the decoration of text
