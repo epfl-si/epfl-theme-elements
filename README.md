@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://web2018.epfl.ch">
-    <img src="https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/docs/readme/logo.png" alt="EPFL Theme Elements logo" width="100" height="100">
+    <img src="https://raw.githubusercontent.com/epfl-si/epfl-theme-elements/master/docs/readme/logo.png" alt="EPFL Theme Elements logo" width="100" height="100">
   </a>
 </p>
 
@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/epfl-idevelop/epfl-theme-elements">
-    <img alt="Build Status" src="https://travis-ci.org/epfl-idevelop/epfl-theme-elements.svg?branch=master">
+  <a href="https://travis-ci.org/epfl-si/epfl-theme-elements">
+    <img alt="Build Status" src="https://travis-ci.org/epfl-si/epfl-theme-elements.svg?branch=master">
   </a>
-  <a href="https://david-dm.org/epfl-idevelop/epfl-theme-elements">
-    <img alt="Dependencies Status" src="https://david-dm.org/epfl-idevelop/epfl-theme-elements/status.svg"/>
+  <a href="https://david-dm.org/epfl-si/epfl-theme-elements">
+    <img alt="Dependencies Status" src="https://david-dm.org/epfl-si/epfl-theme-elements/status.svg"/>
   </a>
-  <a href="https://raw.githubusercontent.com/epfl-idevelop/epfl-theme-elements/master/LICENSE">
+  <a href="https://raw.githubusercontent.com/epfl-si/epfl-theme-elements/master/LICENSE">
     <img alt="Apache License 2.0" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg">
   </a>
   <a href="https://www.npmjs.com/package/epfl-theme-elements">
@@ -32,8 +32,8 @@
 Documentation
 -------------
 
-* [EPFL Theme Elements](https://github.com/epfl-idevelop/epfl-theme-elements/wiki)
-* [Elements](https://epfl-idevelop.github.io/elements/#/)
+* [EPFL Theme Elements](https://github.com/epfl-si/epfl-theme-elements/wiki)
+* [Elements](https://epfl-si.github.io/elements/#/)
 * [Bootstrap](https://getbootstrap.com/)
 
 Quick start
@@ -41,12 +41,12 @@ Quick start
 
 Several quick start options are available:
 
-* [Web2018 CDN](https://github.com/epfl-idevelop/epfl-theme-elements/wiki/Web2018-CDN)
-* [Download the latest release](https://github.com/epfl-idevelop/epfl-theme-elements/releases/latest)
+* [Web2018 CDN](https://github.com/epfl-si/epfl-theme-elements/wiki/Web2018-CDN)
+* [Download the latest release](https://github.com/epfl-si/epfl-theme-elements/releases/latest)
 * Install with [npm](https://www.npmjs.com/package/epfl-theme-elements): `npm install epfl-theme-elements`
 * Install with [yarn](https://yarnpkg.com/en/package/epfl-theme-elements): `yarn add epfl-theme-elements`
 
-Read the [Wiki](https://github.com/epfl-idevelop/epfl-theme-elements/wiki/Technical-documentation)
+Read the [Wiki](https://github.com/epfl-si/epfl-theme-elements/wiki/Technical-documentation)
 for more information.
 
 What's included
@@ -100,6 +100,6 @@ License
 
 Apache License 2.0
 
-(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2019.
+(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2020.
 
 See the [LICENSE](LICENSE) file for more details.
