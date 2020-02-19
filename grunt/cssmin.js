@@ -21,7 +21,8 @@ module.exports = {
         'tmp/css/base.css',
         'tmp/css/vendors.min.css',
         'tmp/css/fonts.css',
-        'src/css/utilities.css'
+        'src/css/utilities.css',
+        'src/css/errors.css'
       ]
     }
   }

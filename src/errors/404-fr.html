@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Page non trouvée - EPFL</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Page non trouvée - EPFL" />
+
+  {{> head }}
+
+</head>
+<body>
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-fr }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Page non trouvée</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <div class="w-100 pb-5">
+        <main id="main" class="content container">
+          <h1 class="text-center text-primary http-status-code">404</h1>
+          <h2 class="mb-5 text-center">Oops ! Cette page est introuvable.</h2>
+          <div class="mb-5">
+            <p>On dirait que cette adresse n'existe pas sur le site. Essayez avec une recherche :</p>
+            <form action="https://search.epfl.ch/" class="border-0 p-0">
+              <div class="search-form input-group">
+                <label for="search" class="sr-only">Recherche</label>
+                <input id="search" type="text" class="form-control" name="q" placeholder="Rechercher sur le Web de l'EPFL">
+                <button type="submit" class="d-xl-block btn btn-primary input-group-append">Valider</button>
+              </div>
+            </form>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-fr }}
+      </div>
+    </div>
+
+  </div>
+
+  {{> footer-scripts }}
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Accès interdit - EPFL</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Accès interdit - EPFL" />
+
+  {{> head }}
+
+</head>
+<body>
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-fr }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Accès interdit</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <div class="w-100 pb-5">
+        <main id="main" class="content container">
+          <h1 class="mb-5">Accès interdit</h1>
+          <p>
+            Vous n'avez pas la permission d'accéder à cette page ou à cette ressource.
+          </p>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-fr }}
+      </div>
+    </div>
+
+  </div>
+
+  {{> footer-scripts }}
+</body>
+</html>
