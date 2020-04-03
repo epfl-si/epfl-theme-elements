@@ -66,6 +66,7 @@ dist/
 │  ├── favicon-16.png
 │  ├── favicon-32.png
 │  ├── favicon.ico
+|  ├── feather-sprite.svg
 │  └── icons.svg
 └──js/
    └── elements.min.js
