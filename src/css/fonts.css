@@ -4,6 +4,7 @@
  */
 
 @font-face {
+  font-display: swap;
   font-family: 'SuisseIntl';
   font-weight: 400;
   src: url('<FONTS_PATH>/SuisseIntl-Regular-WebS.eot');
@@ -15,6 +16,7 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: 'SuisseIntl';
   font-weight: 400;
   font-style: italic;
@@ -27,6 +29,7 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: 'SuisseIntl';
   font-weight: 700;
   src: url('<FONTS_PATH>/SuisseIntl-SemiBold-WebS.eot');
@@ -38,6 +41,7 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: 'SuisseIntl';
   font-weight: 700;
   font-style: italic;
