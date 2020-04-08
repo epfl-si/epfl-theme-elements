@@ -22,7 +22,8 @@ module.exports = {
         'tmp/css/vendors.min.css',
         'tmp/css/fonts.css',
         'src/css/utilities.css',
-        'src/css/errors.css'
+        'src/css/errors.css',
+        'src/css/icons.css'
       ]
     }
   }
