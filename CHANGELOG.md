@@ -1,6 +1,14 @@
 EPFL Theme Elements
 ===================
 
+### v5.0.0 / 2020-04-22
+
+- Update to Elements [2.8.0](https://github.com/epfl-si/elements/releases/tag/2.8.0)
+- Add button back to top
+- Enable Feather icons
+- Ensure text remains visible during webfont load
+- Tweak filter button
+
 ### v4.2.0 / 2020-02-20
 
 - Add EPFL error pages (400, 403, 404, 500, 503)
