@@ -1,6 +1,10 @@
 EPFL Theme Elements
 ===================
 
+### v5.0.1 / 2020-04-28
+
+- Fix space under title h1 on error 404 pages
+
 ### v5.0.0 / 2020-04-22
 
 - Update to Elements [2.8.0](https://github.com/epfl-si/elements/releases/tag/2.8.0)
