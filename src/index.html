@@ -35,124 +35,17 @@
 
         <h1>Web2018</h1>
 
-        <ul aria-hidden="true" class="nav-header d-none d-xl-flex">
-          <li class="dropdown">
-            <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Documentation
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://getbootstrap.com/" rel="noopener" target="_blank">Bootstrap</a>
-              <a class="dropdown-item" href="https://epfl-si.github.io/elements/#/" rel="noopener" target="_blank">Elements</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <button class="btn btn-link dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Examples
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://actu.epfl.ch" rel="noopener" target="_blank">Actu</a>
-              <a class="dropdown-item" href="https://archiveweb.epfl.ch" rel="noopener" target="_blank">Web Archives</a>
-            </div>
-          </li>
-        </ul>
-
         {{> search-en }}
 
-        <nav aria-label="Change the language" class="nav-lang nav-lang-short ml-auto">
-          <ul>
-            <li>
-              <span aria-label="English" class="active">EN</span>
-            </li>
-          </ul>
+        <nav class="nav-lang nav-lang-short invisible ml-auto">
+          |
         </nav>
-
-        {{> mobile-menu }}
 
       </div>
 
     </header>
 
     <div class="main-container">
-
-      <div class="overlay"></div>
-      <nav class="nav-main" id="main-navigation">
-        <div class="nav-wrapper">
-          <div class="nav-container current-menu-parent">
-            <ul class="nav-menu">
-              <li class="menu-item-has-children">
-                <a href="#" role="button">Documentation</a>
-                <ul>
-                  <li class="nav-back d-xl-none">
-                    <a href="#">
-                      <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-arrow-left"></use>
-                      </svg>
-                      Documentation
-                    </a>
-                  </li>
-                  <li class="nav-home d-none d-xl-block">
-                    <a href="#">
-                      <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-home"></use>
-                      </svg>
-                      <span class="text-muted">›</span>
-                      Documentation
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://getbootstrap.com/" rel="noopener" target="_blank">Bootstrap</a>
-                  </li>
-                  <li>
-                    <a href="https://epfl-si.github.io/elements/#/" rel="noopener" target="_blank">Elements</a>
-                  </li>
-                </ul>
-                <a href="#" role="button" aria-hidden="true" class="nav-arrow">
-                  <div class="icon-container">
-                    <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-chevron-right"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-              <li class="menu-item-has-children">
-                <a href="#" role="button">Examples</a>
-                <ul>
-                  <li class="nav-back d-xl-none">
-                    <a href="#">
-                      <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-arrow-left"></use>
-                      </svg>
-                      Examples
-                    </a>
-                  </li>
-                  <li class="nav-home d-none d-xl-block">
-                    <a href="#">
-                      <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-home"></use>
-                      </svg>
-                      <span class="text-muted">›</span>
-                      Examples
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://actu.epfl.ch" rel="noopener" target="_blank">Actu</a>
-                  </li>
-                  <li>
-                    <a href="https://archiveweb.epfl.ch" rel="noopener" target="_blank">Web Archives</a>
-                  </li>
-                </ul>
-                <a href="#" role="button" aria-hidden="true" class="nav-arrow">
-                  <div class="icon-container">
-                    <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-chevron-right"></use>
-                    </svg>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       <!-- Breadcrumb - Example -->
       <div class="breadcrumb-container">
@@ -175,129 +68,45 @@
         <div class="w-100 pb-5">
           <main id="main" class="content container-grid">
             <div class="container">
-              <h1 class="mb-4">Web2018</h1>
 
-              <h2 id="getting-started" class="my-4">Getting Started</h2>
+              <h1 class="mt-4 mb-5">Web2018</h1>
 
-              <p>Get started with Web2018 for building responsive, mobile-first
-                sites. Be sure to have your pages set up with the latest design
-                and development standards. That means using an HTML5 doctype and
-                including a viewport meta tag for proper responsive behaviors.
-                Put it all together and your pages should look like this:
+              <p class="lead mb-5">
+                If you need to make a stand-alone website or develop an EPFL
+                application, it is <a href="https://www.epfl.ch/campus/services/communication/en/website/">recommended</a>
+                to use the EPFL Web styleguide.
               </p>
 
-  <pre><code class="language-html">&lt;!doctype html&gt;
-  &lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
-
-      &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/icons/favicon.ico&quot;&gt;
-      &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/icons/favicon-16.png&quot;&gt;
-      &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/icons/favicon-32.png&quot;&gt;
-      &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/icons/apple-touch-icon.png&quot;&gt;
-
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/css/elements.min.css&quot;&gt;
-
-      &lt;title&gt;Hello, world!&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-      &lt;h1&gt;Hello, world!&lt;/h1&gt;
-
-      &lt;script&gt;
-        svgPath = 'https://web2018.epfl.ch/{{VERSION}}/icons/icons.svg';
-      &lt;/script&gt;
-
-      &lt;script src=&quot;https://web2018.epfl.ch/{{VERSION}}/js/elements.min.js&quot;&gt;&lt;/script&gt;
-    &lt;/body&gt;
-  &lt;/html&gt;
-  </code></pre>
-
-              <p>
-                That's all you need for overall page requirements.
-              </p>
-
-              <h2 id="cdn" class="my-4">Web2018 CDN</h2>
-
-              <p>
-                The domain web2018.epfl.ch deliver cached version of compiled CSS, JS and
-                icons to your project.
-              </p>
-
-  <pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://web2018.epfl.ch/{{VERSION}}/css/elements.min.css&quot;&gt;
-  &lt;script src=&quot;https://web2018.epfl.ch/{{VERSION}}/js/elements.min.js&quot;&gt;&lt;/script&gt;
-
-  &lt;img src=&quot;https://web2018.epfl.ch/{{VERSION}}/icons/epfl-logo.svg&quot; alt=&quot;Logo EPFL&quot; class=&quot;img-fluid&quot;&gt;
-  </code></pre>
-
-              <p>
-                Make sure to include the auto-updating html parts (includes)
-                 into your project available at
-                <a href="https://web2018.epfl.ch/download-me.html">https://web2018.epfl.ch/download-me.html</a>.
-              </p>
-
-              <p>
-                As most templating languages does not support including content
-                from a remote server, you can retrieve all the includes via:
-              </p>
-
-              <pre><code class="language-bash">wget -P /var/www/mywebsite/header -N -nd -r -l 1 https://web2018.epfl.ch/download-me.html</code></pre>
-
-              <p>
-                An example page with all the includes is available
-                <a href="https://raw.githubusercontent.com/epfl-si/epfl-theme-elements/master/example/page-base.html">here</a>.
-              </p>
-
-              <h2 id="compile" class="my-4">Compiled CSS and JS</h2>
-
-              <p>
-                Download ready-to-use compiled code for Web2018 v{{VERSION}} to
-                easily drop into your project, which includes:
-              </p>
-
-              <ul>
-                <li>Compiled and minified CSS</li>
-                <li>Compiled and minified JavaScript plugins</li>
-                <li>Icons and logo</li>
-              </ul>
-
-              <p>
-                This doesn't include documentation, source files, or includes.
-              </p>
-
-              <a href="https://github.com/epfl-si/epfl-theme-elements/releases/latest" class="btn btn-secondary">Download</a>
-
-              <h2 id="npm" class="my-4">npm</h2>
-
-              <p>Install Web2018 in your Node.js powered apps with
-                <a href="https://www.npmjs.com/package/epfl-theme-elements">the npm package</a>:
-              </p>
-              <pre><code class="language-bash">npm install epfl-theme-elements</code></pre>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h2 class="h3 card-title">Elements</h2>
+                      <p class="mb-4 card-text">
+                        The EPFL Web Styleguide. Everything that makes up the EPFL website,
+                        from colors to different elements.
+                      </p>
+                      <a href="https://epfl-si.github.io/elements/" class="btn btn-primary">Get started</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h2 class="h3 card-title">EPFL Theme Elements</h2>
+                      <p class="mb-4 card-text">
+                        Elements with ready to use templates, error pages and versioned assets
+                        behind Cloudflare cache (CDN).
+                      </p>
+                      <a href="https://github.com/epfl-si/epfl-theme-elements/wiki/Technical-documentation" class="btn btn-primary">Get started</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </main>
         </div>
-
-        <aside class="nav-aside-wrapper">
-          <nav id="nav-aside" class="nav-aside">
-            <ul>
-              <li class="active">
-                <a href="#getting-started">Getting Started</a>
-              </li>
-              <li >
-                <a href="#cdn">Web2018 CDN</a>
-              </li>
-              <li >
-                <a href="#compile">Compiled CSS and JS</a>
-              </li>
-              <li >
-                <a href="#npm">npm</a>
-              </li>
-            </ul>
-          </nav>
-        </aside>
-
       </div>
-
     </div>
 
     <div class="bg-gray-100 pt-5 mt-auto">
