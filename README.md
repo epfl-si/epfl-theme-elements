@@ -76,7 +76,9 @@ Applications Showcase
 ---------------------
 
 * [Actu](https://actu.epfl.ch)
+* [Media Library](https://mediatheque.epfl.ch/)
 * [Memento](https://memento.epfl.ch)
+* [Press review](https://rdp.epfl.ch)
 
 Contributing
 ------------
