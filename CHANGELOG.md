@@ -1,6 +1,15 @@
 EPFL Theme Elements
 ===================
 
+### v5.0.2 / 2020-06-17
+
+- Update to Elements [2.10.0](https://github.com/epfl-si/elements/releases/tag/2.10.0)
+- Update jQuery to v3.5.1
+- Update node.js version on Travis CI
+- Update applications showcase list in `README.md`
+- Rewrite Web2018 homepage
+- Fix drawer toggle accessibility
+
 ### v5.0.1 / 2020-04-28
 
 - Fix space under title h1 on error 404 pages
