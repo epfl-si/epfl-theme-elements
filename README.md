@@ -62,12 +62,14 @@ dist/
 │  └── elements.min.css
 ├──icons/
 │  ├── apple-touch-icon.png
+│  ├── epfl-logo.png
 │  ├── epfl-logo.svg
 │  ├── favicon-16.png
 │  ├── favicon-32.png
 │  ├── favicon.ico
 |  ├── feather-sprite.svg
-│  └── icons.svg
+│  ├── icons.svg
+│  └── square.png
 └──js/
    └── elements.min.js
 ```
