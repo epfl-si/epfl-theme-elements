@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v5.1.0 / 2020-12-01
+
+- Add new icons for email template
+- Migrate From Travis CI to GitHub Actions
+
 ### v5.0.2 / 2020-06-17
 
 - Update to Elements [2.10.0](https://github.com/epfl-si/elements/releases/tag/2.10.0)
