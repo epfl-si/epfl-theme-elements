@@ -1,6 +1,10 @@
 EPFL Theme Elements
 ===================
 
+### v5.1.1 / 2020-12-15
+
+- Add privacy policy link in footer
+
 ### v5.1.0 / 2020-12-01
 
 - Add new icons for email template
