@@ -1,0 +1,42 @@
+<form action="//search.epfl.ch" class="d-xl-none">
+  <a id="search-mobile-toggle" class="search-mobile-toggle searchform-controller" href="#">
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#icon-search"></use>
+    </svg>
+    <span class="toggle-label sr-only">Suchformular anzeigen / verbergen</span>
+  </a>
+  <div class="input-group search-mobile" role="search">
+    <div class="input-group-prepend">
+      <span class="input-group-text">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-search"></use>
+        </svg>
+      </span>
+    </div>
+    <label for="q-mobile" class="sr-only">Search</label>
+    <input type="text" class="form-control" id="q-mobile" name="q" placeholder="Search">
+    <div class="input-group-append">
+      <a id="search-mobile-close" class="search-mobile-close searchform-controller" href="#">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-close"></use>
+        </svg>
+        <span class="toggle-label sr-only">Suchformular verbergen</span>
+      </a>
+    </div>
+  </div>
+</form>
+
+<div class="dropdown dropright search d-none d-xl-block">
+  <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+    <svg class="icon" aria-hidden="true">
+      <use xlink:href="#icon-search"></use>
+    </svg>
+  </a>
+  <form action="//search.epfl.ch" class="dropdown-menu border-0 p-0">
+    <div class="search-form mt-1 input-group">
+      <label for="q" class="sr-only">Suche</label>
+      <input type="text" class="form-control" id="q" name="q" placeholder="Search">
+      <button type="submit" class="d-none d-xl-block btn btn-primary input-group-append">Suche</button>
+    </div>
+  </form>
+</div>
