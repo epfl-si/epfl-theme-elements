@@ -64,6 +64,7 @@ dist/
 │  ├── apple-touch-icon.png
 │  ├── epfl-logo.png
 │  ├── epfl-logo.svg
+│  ├── epfl-logo-negative.svg
 │  ├── favicon-16.png
 │  ├── favicon-32.png
 │  ├── favicon.ico

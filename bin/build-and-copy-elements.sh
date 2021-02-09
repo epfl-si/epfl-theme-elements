@@ -25,6 +25,7 @@ cd $REPO_THEME/tmp
 # Prepare and clean for packaging
 rm -fr images/
 mv svg/epfl-logo.svg icons/
+mv svg/epfl-logo-negative.svg icons/
 mv favicons/apple-touch-icon.png icons/
 mv favicons/favicon-16.png icons/
 mv favicons/favicon-32.png icons/
