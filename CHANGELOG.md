@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v5.2.0 / 2021-02-10
+
+- Add German language on templates and error pages
+- Add `epfl-logo-negative.svg`
+
 ### v5.1.1 / 2020-12-15
 
 - Add privacy policy link in footer
