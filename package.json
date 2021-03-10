@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/epfl-si/epfl-theme-elements.git",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "main": "dist/js/elements.min.js",
   "scripts": {
