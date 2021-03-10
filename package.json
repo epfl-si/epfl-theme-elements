@@ -40,7 +40,7 @@
     "load-grunt-config": "^3.0.1"
   },
   "dependencies": {
-    "epfl-elements": "git+https://github.com:epfl-si/elements.git#85d945c",
+    "epfl-elements": "git+https://github.com:epfl-si/elements.git#3d5a3d8",
     "jquery": "3.5.1"
   }
 }
