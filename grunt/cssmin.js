@@ -9,8 +9,8 @@ module.exports = {
   tmpCloudflare: {
     files: {
       'tmp/css/css-elements-for-cloudflare-custom-pages.min.css': [
-        'tmp/css/base.css',
-        'tmp/css/vendors.min.css',
+        'node_modules/epfl-elements/css/base.css',
+        'node_modules/epfl-elements/css/vendors.min.css',
         'src/css/utilities.css'
       ]
     }
@@ -18,8 +18,8 @@ module.exports = {
   dist: {
     files: {
       'dist/css/elements.min.css': [
-        'tmp/css/base.css',
-        'tmp/css/vendors.min.css',
+        'node_modules/epfl-elements/css/base.css',
+        'node_modules/epfl-elements/css/vendors.min.css',
         'tmp/css/fonts.css',
         'src/css/layout.css',
         'src/css/utilities.css',
