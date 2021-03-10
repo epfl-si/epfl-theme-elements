@@ -23,8 +23,7 @@ module.exports = {
         'tmp/css/fonts.css',
         'src/css/layout.css',
         'src/css/utilities.css',
-        'src/css/errors.css',
-        'src/css/icons.css'
+        'src/css/errors.css'
       ]
     }
   }
