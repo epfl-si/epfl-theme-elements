@@ -5,12 +5,12 @@
 # See the LICENSE file for more details.
 #
 
-WEB2018_PATH=/home/kis/web2018.epfl.ch
+WEB2018_PATH=/var/www/vhosts/web2018.epfl.ch
 APP_NAME=epfl-theme-elements-X.Y.Z-cdn.zip
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SERVERS_LIST=( "exopgesrv1.epfl.ch"
-               "kissrv104.epfl.ch"
-               "kissrv105.epfl.ch" )
+               "itswbhst0003.xaas.epfl.ch"
+               "itswbhst0004.xaas.epfl.ch" )
 
 # Deploy the tools to the various servers
 deploy_tools() {
