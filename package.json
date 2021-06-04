@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/epfl-si/epfl-theme-elements.git",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "main": "dist/js/elements.min.js",
   "scripts": {
@@ -23,19 +23,18 @@
     "release": "./bin/build-and-copy-elements.sh && grunt release"
   },
   "devDependencies": {
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "grunt": "^1.0.4",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "grunt": "^1.4.1",
     "grunt-compile-handlebars": "^2.0.2",
-    "grunt-contrib-compress": "^1.6.0",
+    "grunt-contrib-compress": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^3.0.0",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-eslint": "^22.0.0",
-    "grunt-replace": "^1.0.1",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-eslint": "^23.0.0",
+    "grunt-replace": "^2.0.2",
     "load-grunt-config": "^3.0.1"
   },
   "dependencies": {
