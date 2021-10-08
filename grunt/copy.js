@@ -9,9 +9,19 @@ module.exports = {
   icons: {
     files: [{
       expand: true,
+      flatten: true,
       cwd: 'tmp/',
-      src: ['icons/**'],
-      dest: 'dist/',
+      src: [
+        'icons/icons.svg',
+        'icons/feather-sprite.svg',
+        'svg/epfl-logo.svg',
+        'svg/epfl-logo-negative.svg',
+        'favicons/apple-touch-icon.png',
+        'favicons/favicon-16.png',
+        'favicons/favicon-32.png',
+        'favicons/favicon.ico'
+      ],
+      dest: 'dist/icons/',
       nonull: true
     }, {
       expand: true,
