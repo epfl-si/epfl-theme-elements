@@ -19,7 +19,7 @@ yarn build
 
 # Copy assets for packaging
 mkdir -p $REPO_THEME/tmp
-cp -r build/* $REPO_THEME/tmp
+cp -r dist/* $REPO_THEME/tmp
 cd $REPO_THEME/tmp
 
 # Prepare and clean for packaging

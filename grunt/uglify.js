@@ -19,8 +19,7 @@ module.exports = {
       'dist/js/elements.min.js': [
         'node_modules/jquery/dist/jquery.min.js',
         'tmp/js/vendors.min.js',
-        'tmp/js/vendors.bundle.js',
-        'tmp/js/app.bundle.js'
+        'tmp/js/elements.bundle.js'
       ]
     }
   }
