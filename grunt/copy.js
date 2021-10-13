@@ -1,6 +1,5 @@
 /*
- * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2020.
- * See the LICENSE file for more details.
+ * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2018-2021.
  */
 
 'use strict';
@@ -46,6 +45,18 @@ module.exports = {
       cwd: 'src/',
       src: ['robots.txt'],
       dest: 'release/',
+      nonull: true
+    }]
+  },
+  license: {
+    files: [{
+      expand: true,
+      cwd: 'tmp/js',
+      src: [
+        'vendors.min.js.LICENSE.txt',
+        'elements.bundle.js.LICENSE.txt'
+      ],
+      dest: 'dist/js',
       nonull: true
     }]
   }

@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #
-# (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018.
-# See the LICENSE file for more details.
+# (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2018-2021.
 #
 
 REPO_ELEMENTS="../elements"
