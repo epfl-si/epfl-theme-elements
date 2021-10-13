@@ -18,8 +18,8 @@ module.exports = {
   dist: {
     files: {
       'dist/css/elements.min.css': [
-        'tmp/css/elements.css',
         'tmp/css/vendors.min.css',
+        'tmp/css/elements.css',
         'tmp/css/fonts.css',
         'src/css/layout.css',
         'src/css/utilities.css',
