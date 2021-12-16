@@ -20,7 +20,6 @@ module.exports = {
         'tmp/css/vendors.min.css',
         'tmp/css/elements.css',
         'tmp/css/fonts.css',
-        'src/css/layout.css',
         'src/css/utilities.css',
         'src/css/errors.css'
       ]
