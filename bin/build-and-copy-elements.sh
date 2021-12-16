@@ -14,7 +14,7 @@ rm -fr release/
 
 # Build elements theme
 cd $REPO_ELEMENTS
-yarn build
+yarn dist
 
 # Copy assets for packaging
 mkdir -p $REPO_THEME/tmp
