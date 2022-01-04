@@ -12,7 +12,7 @@
   "contributors": [
     "Olivier Bieler (https://github.com/obieler)"
   ],
-  "license": "Apache-2.0",
+  "license": "",
   "repository": "https://github.com/epfl-si/epfl-theme-elements.git",
   "engines": {
     "node": ">=10"

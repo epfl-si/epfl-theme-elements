@@ -66,12 +66,3 @@ Tagging
 git tag -a v<version> -m "EPFL Theme Elements - <version>"
 git push --tags
 ```
-
-License
--------
-
-Apache License 2.0
-
-(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018.
-
-See the [LICENSE](LICENSE) file for more details.

@@ -72,7 +72,9 @@ dist/
 │  ├── icons.svg
 │  └── square.png
 └──js/
-   └── elements.min.js
+   ├── elements.bundle.js.LICENSE.txt
+   ├── elements.min.js
+   └── vendors.min.js.LICENSE.txt
 ```
 
 Applications Showcase
@@ -100,12 +102,3 @@ Developers
 
 * [Olivier Bieler](https://github.com/obieler)
 * [William Belle](https://github.com/williambelle)
-
-License
--------
-
-Apache License 2.0
-
-(c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2018-2020.
-
-See the [LICENSE](LICENSE) file for more details.
