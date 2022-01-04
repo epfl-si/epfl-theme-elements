@@ -6,7 +6,7 @@
 
 module.exports = {
   options: {
-    configFile: '.eslintrc.json'
+    overrideConfigFile: '.eslintrc.json'
   },
   target: [
     '**/*.js',

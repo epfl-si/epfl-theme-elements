@@ -15,7 +15,7 @@
   "license": "",
   "repository": "https://github.com/epfl-si/epfl-theme-elements.git",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "main": "dist/js/elements.min.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "grunt": "^1.4.1",
@@ -33,11 +33,12 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-uglify": "^5.0.1",
-    "grunt-eslint": "^23.0.0",
+    "grunt-eslint": "^24.0.0",
     "grunt-replace": "^2.0.2",
-    "load-grunt-config": "^3.0.1"
+    "js-yaml": "^4.1.0",
+    "load-grunt-config": "^4.0.1"
   },
   "dependencies": {
-    "jquery": "3.5.1"
+    "jquery": "3.6.0"
   }
 }
