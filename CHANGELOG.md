@@ -1,6 +1,12 @@
 EPFL Theme Elements
 ===================
 
+### v6.0.0 / 2022-01-04
+
+- Upgrade to Elements v3.1.1
+- Update deploy script for latest servers
+- Update dev dependencies
+
 ### v5.2.0 / 2021-02-10
 
 - Add German language on templates and error pages
