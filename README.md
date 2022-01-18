@@ -16,8 +16,8 @@
   <a href="https://github.com/epfl-si/epfl-theme-elements/actions">
     <img alt="Build Status" src="https://github.com/epfl-si/epfl-theme-elements/workflows/Build/badge.svg">
   </a>
-  <a href="https://raw.githubusercontent.com/epfl-si/epfl-theme-elements/master/LICENSE">
-    <img alt="Apache License 2.0" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg">
+  <a href="https://david-dm.org/epfl-si/epfl-theme-elements">
+    <img alt="Dependencies Status" src="https://david-dm.org/epfl-si/epfl-theme-elements/status.svg"/>
   </a>
   <a href="https://www.npmjs.com/package/epfl-theme-elements">
     <img alt="npm version" src="https://img.shields.io/npm/v/epfl-theme-elements.svg" />
