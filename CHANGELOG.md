@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v6.0.1 / 2022-01-19
+
+- Upgrade to Elements v3.1.3
+- Update dependencies
+- Remove dependencies status badge in README
+- Remove license badge in README
+
 ### v6.0.0 / 2022-01-04
 
 - Upgrade to Elements v3.1.1
