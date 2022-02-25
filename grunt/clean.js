@@ -1,5 +1,5 @@
 /*
- * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, VPSI, 2022.
+ * (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2022.
  * See the LICENSE file for more details.
  */
 
