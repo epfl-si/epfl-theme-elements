@@ -8,26 +8,23 @@ Setup
 -----
 
 ```bash
-git clone git@github.com:epfl-si/elements.git
 git clone git@github.com:epfl-si/epfl-theme-elements.git
-cd elements
+cd epfl-theme-elements
 yarn
-cd ../epfl-theme-elements
-npm i
 ```
 
 Test
 ----
 
 ```bash
-npm t
+yarn test
 ```
 
 Build
 -----
 
 ```bash
-npm run release
+yarn run release
 ```
 
 and check the `dist` and `release` folders.

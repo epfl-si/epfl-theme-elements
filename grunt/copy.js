@@ -9,7 +9,7 @@ module.exports = {
     files: [{
       expand: true,
       flatten: true,
-      cwd: 'tmp/',
+      cwd: 'node_modules/epfl-elements/',
       src: [
         'icons/icons.svg',
         'icons/feather-sprite.svg',
@@ -51,7 +51,7 @@ module.exports = {
   license: {
     files: [{
       expand: true,
-      cwd: 'tmp/js',
+      cwd: 'node_modules/epfl-elements/js',
       src: [
         'vendors.min.js.LICENSE.txt',
         'elements.bundle.js.LICENSE.txt'

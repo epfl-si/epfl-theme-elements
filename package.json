@@ -20,7 +20,7 @@
   "main": "dist/js/elements.min.js",
   "scripts": {
     "test": "grunt test",
-    "release": "./bin/build-and-copy-elements.sh && grunt release"
+    "release": "grunt release"
   },
   "devDependencies": {
     "eslint-config-standard": "^16.0.3",
@@ -29,6 +29,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "grunt": "^1.4.1",
     "grunt-compile-handlebars": "^2.0.2",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-compress": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^4.0.0",
@@ -39,6 +40,7 @@
     "load-grunt-config": "^4.0.1"
   },
   "dependencies": {
+    "epfl-elements": "epfl-si/elements#faf9aa4",
     "jquery": "3.6.0"
   }
 }
