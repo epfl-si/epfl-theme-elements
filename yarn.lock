@@ -551,9 +551,9 @@ end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-epfl-elements@epfl-si/elements#8c815f4:
-  version "3.3.1"
-  resolved "https://codeload.github.com/epfl-si/elements/tar.gz/8c815f42d5a3ceb3b68c302eb8ba33bee6da2cc5"
+epfl-elements@epfl-si/elements#2c1d0f4:
+  version "3.3.2"
+  resolved "https://codeload.github.com/epfl-si/elements/tar.gz/2c1d0f4fecdbd1e822eac6691b662694cb22746e"
   dependencies:
     "@selectize/selectize" "^0.13.4"
     bootstrap "^4.5.2"
