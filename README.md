@@ -66,7 +66,7 @@ dist/
 │  ├── icons.svg
 │  └── square.png
 └──js/
-   ├── elements.bundle.js.LICENSE.txt
+   ├── elements.min.js.LICENSE.txt
    ├── elements.min.js
    └── vendors.min.js.LICENSE.txt
 ```

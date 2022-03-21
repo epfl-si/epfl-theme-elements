@@ -54,7 +54,7 @@ module.exports = {
       cwd: 'node_modules/epfl-elements/js',
       src: [
         'vendors.min.js.LICENSE.txt',
-        'elements.bundle.js.LICENSE.txt'
+        'elements.min.js.LICENSE.txt'
       ],
       dest: 'dist/js',
       nonull: true
