@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v6.1.0 / 2022-03-22
+
+- Upgrade to Elements v3.3.2
+- Use Elements as a standard dependency
+
 ### v6.0.1 / 2022-01-19
 
 - Upgrade to Elements v3.1.3
