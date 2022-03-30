@@ -9,8 +9,7 @@ module.exports = {
     files: {
       'tmp/css/css-elements-for-cloudflare-custom-pages.min.css': [
         'node_modules/epfl-elements/css/vendors.css',
-        'node_modules/epfl-elements/css/elements.css',
-        'src/css/utilities.css'
+        'node_modules/epfl-elements/css/elements.css'
       ]
     }
   },
@@ -20,7 +19,6 @@ module.exports = {
         'node_modules/epfl-elements/css/vendors.css',
         'node_modules/epfl-elements/css/elements.css',
         'tmp/css/fonts.css',
-        'src/css/utilities.css',
         'src/css/errors.css'
       ]
     }
