@@ -24,6 +24,12 @@ module.exports = {
       nonull: true
     }, {
       expand: true,
+      cwd: 'node_modules/epfl-elements/',
+      src: ['images/icons/**'],
+      dest: 'dist/',
+      nonull: true
+    }, {
+      expand: true,
       cwd: 'src/',
       src: ['icons/**'],
       dest: 'dist/',

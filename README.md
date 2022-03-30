@@ -65,6 +65,10 @@ dist/
 |  ├── feather-sprite.svg
 │  ├── icons.svg
 │  └── square.png
+├──images/
+│  └── icons/
+│      ├── icon-course-exercise.svg
+│      └── icon-course-project.svg
 └──js/
    ├── elements.min.js.LICENSE.txt
    ├── elements.min.js
