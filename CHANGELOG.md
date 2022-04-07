@@ -1,6 +1,12 @@
 EPFL Theme Elements
 ===================
 
+### v6.1.1 / 2022-04-07
+
+- Update Elements to v3.4.1
+- Add missing icons for Coursebook
+- Fix `feather-sprite.svg` in error pages
+
 ### v6.1.0 / 2022-03-22
 
 - Upgrade to Elements v3.3.2
