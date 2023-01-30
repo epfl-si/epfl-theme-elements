@@ -42,7 +42,7 @@
     "load-grunt-config": "^4.0.1"
   },
   "dependencies": {
-    "epfl-elements": "epfl-si/elements#0691e25",
+    "epfl-elements": "4.0.0",
     "jquery": "3.6.0"
   }
 }
