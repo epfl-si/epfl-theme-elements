@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v6.2.0 / 2023-02-08
+
+- Update Elements to v4.0.0
+- Update dev dependencies
+
 ### v6.1.1 / 2022-04-07
 
 - Update Elements to v3.4.1
