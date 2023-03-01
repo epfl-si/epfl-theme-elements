@@ -556,7 +556,7 @@ end-of-stream@^1.4.1:
 
 epfl-elements@4.1.0:
   version "4.1.0"
-  resolved "https://registry.npmjs.org/epfl-elements/-/epfl-elements-4.1.0.tgz#639f8d708c2a1558cdbdfe9ae961a1f842a13ca9"
+  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-4.1.0.tgz#639f8d708c2a1558cdbdfe9ae961a1f842a13ca9"
   integrity sha512-vj5rQO/yhYg3g8tPKRWFKX87y16SsdFCpixIYFDDQRCQNxbAAqipO9KiEDT4s4HixpxkEERb+kq7guguq761mQ==
   dependencies:
     "@selectize/selectize" "^0.13.6"
