@@ -1,6 +1,16 @@
 EPFL Theme Elements
 ===================
 
+### v6.2.1 / 2023-03-01
+
+- Update Elements to 4.1.0
+- Update header
+- Update href for EPFL logo
+- Bump json5 from 1.0.1 to 1.0.2
+- Bump minimist from 1.2.5 to 1.2.8
+- Bump jquery-ui from 1.13.1 to 1.13.2
+- Update grunt-compile-handlebars from 2.0.2 to 2.0.3
+
 ### v6.2.0 / 2023-02-08
 
 - Update Elements to v4.0.0
