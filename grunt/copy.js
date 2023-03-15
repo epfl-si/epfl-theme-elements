@@ -18,7 +18,9 @@ module.exports = {
         'favicons/apple-touch-icon.png',
         'favicons/favicon-16.png',
         'favicons/favicon-32.png',
-        'favicons/favicon.ico'
+        'favicons/favicon.ico',
+        'images/email/epfl-logo.png',
+        'images/email/square.png'
       ],
       dest: 'dist/icons/',
       nonull: true
@@ -26,12 +28,6 @@ module.exports = {
       expand: true,
       cwd: 'node_modules/epfl-elements/dist/',
       src: ['images/icons/**'],
-      dest: 'dist/',
-      nonull: true
-    }, {
-      expand: true,
-      cwd: 'src/',
-      src: ['icons/**'],
       dest: 'dist/',
       nonull: true
     }]
