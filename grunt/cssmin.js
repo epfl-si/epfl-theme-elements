@@ -18,8 +18,7 @@ module.exports = {
       'dist/css/elements.min.css': [
         'node_modules/epfl-elements/dist/css/vendors.css',
         'node_modules/epfl-elements/dist/css/elements.css',
-        'tmp/css/fonts.css',
-        'src/css/errors.css'
+        'tmp/css/fonts.css'
       ]
     }
   }
