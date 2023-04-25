@@ -1,6 +1,6 @@
 {
   "name": "epfl-theme-elements",
-  "version": "6.2.1",
+  "version": "6.2.3",
   "description": "EPFL Web 2018 Styleguide based on elements",
   "keywords": [
     "EPFL",
@@ -42,7 +42,7 @@
     "load-grunt-config": "^4.0.1"
   },
   "dependencies": {
-    "epfl-elements": "4.1.0",
+    "epfl-elements": "4.2.1",
     "jquery": "3.6.0"
   }
 }
