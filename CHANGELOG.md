@@ -1,6 +1,15 @@
 EPFL Theme Elements
 ===================
 
+### v6.2.3 / 2023-04-25
+
+- Update Elements to 4.2.1
+
+### v6.2.2 / 2023-03-27
+
+- Update Elements to 4.2.0
+- Transfer images for email templating to Elements
+
 ### v6.2.1 / 2023-03-01
 
 - Update Elements to 4.1.0
