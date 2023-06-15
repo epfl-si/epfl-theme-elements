@@ -1,6 +1,10 @@
 EPFL Theme Elements
 ===================
 
+### v6.3.0 / 2023-06-15
+
+- Migrate to Google Analytics v4
+
 ### v6.2.3 / 2023-04-25
 
 - Update Elements to 4.2.1
