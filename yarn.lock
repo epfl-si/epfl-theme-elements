@@ -554,10 +554,10 @@ end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-epfl-elements@4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-4.2.1.tgz#9f9d2d48a724989a4a17611c4bf70936824965c0"
-  integrity sha512-PSBRINLEkJetlHo60Xf2jDS9G6Z3aei810I7Al+sayrfPrOvYNDGIx0DX1edzD8x5c+2y7jV8AFemGKmSWsm1g==
+epfl-elements@4.5.1:
+  version "4.5.1"
+  resolved "https://registry.npmjs.org/epfl-elements/-/epfl-elements-4.5.1.tgz#920c8c681e5c6f36eb5c35bdf4a8bb661b41e92f"
+  integrity sha512-H/Ww/ifSm/sE2mxLFD9Pax0XbtkUwbv3Q/G2GuVsgpEHtfD50C1tGHDgOoMWAlSNbvPX4YWCaNsmGfVjGLiDVw==
   dependencies:
     "@selectize/selectize" "^0.13.6"
     bootstrap "^4.5.2"
