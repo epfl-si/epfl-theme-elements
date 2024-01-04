@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v6.5.0 / 2024-01-04
+
+- Update elements from 4.5.1 to 4.6.1
+- Sort footer social icons alphabetically
+- Bump word-wrap from 1.2.3 to 1.2.5
+- Bump semver from 6.3.0 to 6.3.1
+
 ### v6.4.0 / 2023-10-16
 
 - Update elements from 4.2.1 to 4.5.1
