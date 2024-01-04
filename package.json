@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "epfl-elements": "4.6.1",
-    "jquery": "3.7.1"
+    "jquery": "3.7.1",
+    "word-wrap": "^1.2.5"
   }
 }
