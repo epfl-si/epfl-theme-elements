@@ -34,19 +34,24 @@
 
     <div class="main-container">
       <div class="w-100 pb-5">
-        <main id="main" class="content container">
-          <h1 class="mb-3 text-center text-primary http-status-code">404</h1>
-          <h2 class="mb-5 text-center">Oops ! Cette page est introuvable.</h2>
-          <div class="mb-5">
-            <p>On dirait que cette adresse n'existe pas sur le site. Essayez avec une recherche :</p>
-            <form action="https://search.epfl.ch/" class="border-0 p-0">
-              <div class="search-form input-group">
-                <label for="search" class="sr-only">Recherche</label>
-                <input id="search" type="text" class="form-control" name="q" placeholder="Rechercher sur le Web de l'EPFL">
-                <button type="submit" class="d-xl-block btn btn-primary input-group-append">Valider</button>
+        <main id="main" class="content">
+          <section class="error-404 not-found">
+            <div class="page-content container">
+              <p class="h1 mt-4 error-title">404</p>
+              <h1 class="h3 text-center">
+                Oops ! Cette page est introuvable.
+              </h1>
+              <div class="mt-5 pt-2">
+                <form action="https://search.epfl.ch/" class="border-0 p-0">
+                  <div class="search-form mt-1 input-group">
+                    <label for="search" class="sr-only">Recherche</label>
+                    <input type="text" class="form-control" name="search" placeholder="Rechercher sur le Web de l'EPFL">
+                    <button type="submit" class="d-none d-sm-block btn btn-primary input-group-append">Valider</button>
+                  </div>
+                </form>
               </div>
-            </form>
-          </div>
+            </div>
+          </section>
         </main>
       </div>
     </div>
