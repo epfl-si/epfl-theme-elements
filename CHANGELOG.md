@@ -1,6 +1,14 @@
 EPFL Theme Elements
 ===================
 
+### v6.7.0 / 2024-05-30
+
+- Update elements from 4.8.0 to 4.9.0
+
+### v6.6.0 / 2024-05-22
+
+- Update elements from 4.7.0 to 4.8.0
+
 ### v6.5.1 / 2024-02-13
 
 - Update elements from 4.6.1 to 4.7.0
