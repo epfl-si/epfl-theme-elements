@@ -36,7 +36,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2",
-    "grunt-eslint": "^25.0.0",
+    "grunt-eslint": "^24.0.0",
     "grunt-replace": "^2.0.2",
     "js-yaml": "^4.1.0",
     "load-grunt-config": "^4.0.1"
