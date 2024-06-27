@@ -68,7 +68,8 @@ dist/
 ├──images/
 │  └── icons/
 │      ├── icon-course-exercise.svg
-│      └── icon-course-project.svg
+│      ├── icon-course-project.svg
+│      └── icon-teaser-video.svg
 └──js/
    ├── elements.min.js.LICENSE.txt
    ├── elements.min.js

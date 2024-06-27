@@ -1,6 +1,35 @@
 EPFL Theme Elements
 ===================
 
+### v6.7.0 / 2024-05-30
+
+- Update elements from 4.8.0 to 4.9.0
+
+### v6.6.0 / 2024-05-22
+
+- Update elements from 4.7.0 to 4.8.0
+
+### v6.5.1 / 2024-02-13
+
+- Update elements from 4.6.1 to 4.7.0
+
+### v6.5.0 / 2024-01-04
+
+- Update elements from 4.5.1 to 4.6.1
+- Sort footer social icons alphabetically
+- Bump word-wrap from 1.2.3 to 1.2.5
+- Bump semver from 6.3.0 to 6.3.1
+
+### v6.4.0 / 2023-10-16
+
+- Update elements from 4.2.1 to 4.5.1
+- Update Twitter logo in footer
+- Update grunt-contrib-cssmin from 4.0.0 to 5.0.0
+
+### v6.3.0 / 2023-06-15
+
+- Migrate to Google Analytics v4
+
 ### v6.2.3 / 2023-04-25
 
 - Update Elements to 4.2.1
