@@ -681,10 +681,10 @@ end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-epfl-elements@4.9.0:
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-4.9.0.tgz#8d7aeeeee904f0df5c1958d1274e1534ec8bd34f"
-  integrity sha512-tl1+8QUhpwYM6aQx0NaaL27cxsVyGsKF7kevOQCps0f2XXkb1ruMbZQtnL2/3clTMtRpGRbMo35x0B3q509DfA==
+epfl-elements@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.0.0.tgz#c1b62b4f2851ab488d6a46be431531c01523254d"
+  integrity sha512-BCRKUynVtB+GcmO4fLkSOrUU7+spgwIeBMXwfAYnuHdmBxkgn6FN6JuufFeoVxnHIdemg22DhXhPTA0lBrzicw==
   dependencies:
     "@selectize/selectize" "^0.13.6"
     bootstrap "^4.6.2"
@@ -699,7 +699,6 @@ epfl-elements@4.9.0:
     jquery "^3.7.1"
     jquery-mousewheel "^3.1.13"
     multiple-select "^1.5.2"
-    object-fit-images "^3.2.4"
     pickadate "^3.6.4"
     popper.js "^1.16.1"
     tablesaw "^3.1.2"
@@ -1950,15 +1949,15 @@ jquery-ui@^1.13.0:
   dependencies:
     jquery ">=1.8.0 <4.0.0"
 
-jquery@3.7.1, jquery@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
-  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
-
 jquery@>=1.7, "jquery@>=1.8.0 <4.0.0":
   version "3.6.3"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.3.tgz#23ed2ffed8a19e048814f13391a19afcdba160e6"
   integrity sha512-bZ5Sy3YzKo9Fyc8wH2iIQK4JImJ6R0GWI9kL1/k7Z91ZBNgkRXE6U0JfHIizZbort8ZunhSI3jw9I6253ahKfg==
+
+jquery@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
 
 js-yaml-js-types@1.0.0:
   version "1.0.0"
@@ -2240,11 +2239,6 @@ normalize-path@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
-
-object-fit-images@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
-  integrity sha512-G+7LzpYfTfqUyrZlfrou/PLLLAPNC52FTy5y1CBywX+1/FkxIloOyQXBmZ3Zxa2AWO+lMF0JTuvqbr7G5e5CWg==
 
 object-inspect@^1.13.1:
   version "1.13.1"
