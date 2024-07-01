@@ -1,6 +1,15 @@
 EPFL Theme Elements
 ===================
 
+### v7.0.0 / 2024-07-01
+
+- Update 404 pages with "new" design
+- Update epfl-elements from 4.9.0 to 5.0.0
+- Update actions/setup-node to v4
+- Update actions/checkout to v4
+- Update dev dependencies
+- Bump braces from 3.0.2 to 3.0.3
+
 ### v6.7.0 / 2024-05-30
 
 - Update elements from 4.8.0 to 4.9.0
