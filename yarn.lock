@@ -681,10 +681,10 @@ end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-epfl-elements@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.0.0.tgz#c1b62b4f2851ab488d6a46be431531c01523254d"
-  integrity sha512-BCRKUynVtB+GcmO4fLkSOrUU7+spgwIeBMXwfAYnuHdmBxkgn6FN6JuufFeoVxnHIdemg22DhXhPTA0lBrzicw==
+epfl-elements@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.0.2.tgz#0cd4d6e340b2c2e330c17699b432b075e303c29c"
+  integrity sha512-CcBKunScuyXUK7wq8C1m5U5hVIDl3Xhpejk7RWwldokNFjoo8Jw7jYIcX4bYJ1CHP3uauVQrtA503PPCdyJj8Q==
   dependencies:
     "@selectize/selectize" "^0.13.6"
     bootstrap "^4.6.2"
@@ -698,7 +698,7 @@ epfl-elements@5.0.0:
     intro.js "^2.9.3"
     jquery "^3.7.1"
     jquery-mousewheel "^3.1.13"
-    multiple-select "^1.5.2"
+    multiple-select "^1.7.0"
     pickadate "^3.6.4"
     popper.js "^1.16.1"
     tablesaw "^3.1.2"
@@ -2205,10 +2205,10 @@ multimatch@^4.0.0:
     arrify "^2.0.1"
     minimatch "^3.0.4"
 
-multiple-select@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/multiple-select/-/multiple-select-1.5.2.tgz#a7290785fc10fa4b9f26d2a92937effc63648bc8"
-  integrity sha512-sTNNRrjnTtB1b1+HTKcjQ/mjWY7Gvigo9F3C/3oTQCTFEpYzwaRYFPRAOu2SogfA1hEfyJTXjyS1VAbanJMsmA==
+multiple-select@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/multiple-select/-/multiple-select-1.7.0.tgz#415e069a071098fcb367ab27b51c70f7b15103d3"
+  integrity sha512-KlODxbDvsg/3M+xU5pmtJb89dJzK4G3oO2miWMwAbW8UaDHfXi4DoVSRiynqwfSa0znwrT0juKEsxJ2nux7k4A==
 
 natural-compare@^1.4.0:
   version "1.4.0"
