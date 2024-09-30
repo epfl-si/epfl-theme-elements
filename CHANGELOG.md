@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v7.0.1 / 2024-09-30
+
+- Update Elements to 5.0.2
+- Bump micromatch from 4.0.4 to 4.0.8
+
 ### v7.0.0 / 2024-07-01
 
 - Update 404 pages with "new" design
