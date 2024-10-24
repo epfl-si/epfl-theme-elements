@@ -681,10 +681,10 @@ end-of-stream@^1.4.1:
   dependencies:
     once "^1.4.0"
 
-epfl-elements@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.0.2.tgz#0cd4d6e340b2c2e330c17699b432b075e303c29c"
-  integrity sha512-CcBKunScuyXUK7wq8C1m5U5hVIDl3Xhpejk7RWwldokNFjoo8Jw7jYIcX4bYJ1CHP3uauVQrtA503PPCdyJj8Q==
+epfl-elements@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.1.0.tgz#dded9b46592abb1cffa9e05e2935ede6681847fe"
+  integrity sha512-UPKdQjVZ+St0lVqTLNVp5/ePN3lFj//D+1W38XJCYXkytHZBv9Hbofw1rsZAvGgR/WshedvH1c21Gn491DRd4g==
   dependencies:
     "@selectize/selectize" "^0.13.6"
     bootstrap "^4.6.2"
