@@ -23,12 +23,7 @@
     "release": "grunt release"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.2.0",
+    "eslint": "^9.19.0",
     "grunt": "^1.6.1",
     "grunt-compile-handlebars": "^2.0.3",
     "grunt-contrib-clean": "^2.0.1",
@@ -36,10 +31,12 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^5.0.0",
     "grunt-contrib-uglify": "^5.2.2",
-    "grunt-eslint": "^24.0.0",
+    "grunt-eslint": "^25.0.0",
     "grunt-replace": "^2.0.2",
     "js-yaml": "^4.1.0",
-    "load-grunt-config": "^4.0.1"
+    "load-grunt-config": "^4.0.1",
+    "neostandard": "^0.12.0",
+    "typescript": "^5.7.3"
   },
   "dependencies": {
     "epfl-elements": "5.1.0"
