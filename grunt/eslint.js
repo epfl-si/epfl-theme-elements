@@ -5,9 +5,6 @@
 'use strict';
 
 module.exports = {
-  options: {
-    overrideConfigFile: '.eslintrc.json'
-  },
   target: [
     '**/*.js',
     '!node_modules/**/*.js',
