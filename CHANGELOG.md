@@ -1,6 +1,13 @@
 EPFL Theme Elements
 ===================
 
+### v7.2.0 / 2024-02-24
+
+- Add Mastodon in footer
+- Update legal links in footer
+- Update Elements to 5.2.0
+- Migrate to ESLint 9.x
+
 ### v7.1.0 / 2024-10-24
 
 - Update Elements to 5.1.0
