@@ -877,10 +877,10 @@ enhanced-resolve@^5.15.0, enhanced-resolve@^5.17.1:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-epfl-elements@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/epfl-elements/-/epfl-elements-5.1.0.tgz#dded9b46592abb1cffa9e05e2935ede6681847fe"
-  integrity sha512-UPKdQjVZ+St0lVqTLNVp5/ePN3lFj//D+1W38XJCYXkytHZBv9Hbofw1rsZAvGgR/WshedvH1c21Gn491DRd4g==
+epfl-elements@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/epfl-elements/-/epfl-elements-5.2.0.tgz#4cb152511aa4ef677cef47cd1ca3c18359c7b1e7"
+  integrity sha512-tl2cUDP0zarJeyIkgR7scJMJLmV4f+zC35QGFiwkTEQSHoZZ6BmiTwG+cU6yktgj+KpWHEQlyezyFOtGpGNpcg==
   dependencies:
     "@selectize/selectize" "^0.13.6"
     bootstrap "^4.6.2"
