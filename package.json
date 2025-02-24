@@ -39,6 +39,6 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "epfl-elements": "5.1.0"
+    "epfl-elements": "5.2.0"
   }
 }
