@@ -1,0 +1,21 @@
+# (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2020-2021.
+
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+      - run: yarn install
+      - run: yarn test
+      - run: yarn run release
