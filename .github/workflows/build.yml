@@ -33,7 +33,7 @@ jobs:
           DATE=$(date "+%Y%m%d%H%M%S")
           VERSION="dev.$DATE.$GIT_SHORT_HASH.${{ github.run_number }}"
 
-          docker tag press-release $IMAGE_ID:$VERSION
+          docker tag web2018 $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
 
       - name: Push image with the GitHub tag
@@ -41,8 +41,8 @@ jobs:
         run: |
           IMAGE_ID="ghcr.io/epfl-si/web2018"
 
-          docker tag kis-bootstrap $IMAGE_ID:latest
+          docker tag web2018 $IMAGE_ID:latest
           docker push $IMAGE_ID:latest
 
-          docker tag kis-bootstrap $IMAGE_ID:${GITHUB_REF_NAME#v}
+          docker tag web2018 $IMAGE_ID:${GITHUB_REF_NAME#v}
           docker push $IMAGE_ID:${GITHUB_REF_NAME#v}
