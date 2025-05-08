@@ -1,5 +1,3 @@
-# (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2020-2021.
-
 name: Test
 
 on: [push, pull_request]
