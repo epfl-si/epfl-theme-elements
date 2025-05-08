@@ -13,15 +13,15 @@ help:
 	@echo "Main:"
 	@echo "  make help             — Display this help"
 	@echo "Utilities:"
-	@echo "  make lint             — Lint with hadolint"
+	@echo "  make hadolint         — Lint with hadolint"
 	@echo "Local:"
 	@echo "  make build            — Build web2018"
 	@echo "  make build-force      — Force build web2018"
 	@echo "  make up               — Brings up web2018"
 	@echo "  make exec             — Enter the container"
 
-.PHONY: lint
-lint:
+.PHONY: hadolint
+hadolint:
 	@${HADOLINT} sh -c "hadolint /host/docker/Dockerfile"
 
 .PHONY: build
