@@ -1,21 +1,48 @@
-# (c) ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE, Switzerland, 2020-2021.
-
 name: Build
 
-on: [push, pull_request]
+on: push
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    name: Build
 
     steps:
-      - name: Checkout repository
+      - name: Clone repository
         uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+
+      - name: Build image
+        run: |
+            docker build . \
+              --no-cache \
+              --file docker/Dockerfile \
+              --tag web2018
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
         with:
-          node-version: '18.x'
-      - run: yarn install
-      - run: yarn test
-      - run: yarn run release
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push image
+        run: |
+          IMAGE_ID="ghcr.io/epfl-si/web2018"
+
+          GIT_SHORT_HASH=$(git rev-parse --short "$GITHUB_SHA")
+          DATE=$(date "+%Y%m%d%H%M%S")
+          VERSION="dev.$DATE.$GIT_SHORT_HASH.${{ github.run_number }}"
+
+          docker tag web2018 $IMAGE_ID:$VERSION
+          docker push $IMAGE_ID:$VERSION
+
+      - name: Push image with the GitHub tag
+        if: ${{ startsWith(github.ref, 'refs/tags/') }}
+        run: |
+          IMAGE_ID="ghcr.io/epfl-si/web2018"
+
+          docker tag web2018 $IMAGE_ID:latest
+          docker push $IMAGE_ID:latest
+
+          docker tag web2018 $IMAGE_ID:${GITHUB_REF_NAME#v}
+          docker push $IMAGE_ID:${GITHUB_REF_NAME#v}
