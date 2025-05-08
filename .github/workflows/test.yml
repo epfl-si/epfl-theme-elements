@@ -10,6 +10,10 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
+
+      - name: Hadolint
+        run: make hadolint
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
