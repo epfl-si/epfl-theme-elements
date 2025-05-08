@@ -13,8 +13,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/epfl-si/epfl-theme-elements/actions">
-    <img alt="Build Status" src="https://github.com/epfl-si/epfl-theme-elements/workflows/Build/badge.svg">
+  <a href="https://github.com/epfl-si/epfl-theme-elements/actions/workflows/test.yml">
+    <img alt="Test Status" src="https://github.com/epfl-si/epfl-theme-elements/actions/workflows/test.yml/badge.svg?branch=master">
+  </a>
+  <a href="https://github.com/epfl-si/epfl-theme-elements/actions/workflows/build.yml">
+    <img alt="Build Status" src="https://github.com/epfl-si/epfl-theme-elements/actions/workflows/build.yml/badge.svg?branch=master">
   </a>
   <a href="https://www.npmjs.com/package/epfl-theme-elements">
     <img alt="npm version" src="https://img.shields.io/npm/v/epfl-theme-elements.svg" />
