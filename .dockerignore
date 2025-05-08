@@ -1,0 +1,15 @@
+docker/Dockerfile
+docker-compose*
+.dockerignore
+
+.git
+.github
+.gitignore
+
+ansible
+release
+tmp
+node_modules
+
+*.md
+.editorconfig
