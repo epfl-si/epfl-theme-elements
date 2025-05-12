@@ -1,0 +1,89 @@
+#!/bin/bash
+#
+# This is a wrapper around ansible / ansible-playbook.
+#
+# Usage ("ansible-playbook" mode):
+#
+#   ./ansible/web2018sible
+#
+# If you are unfamiliar with Ansible, read up on it at
+# - https://www.ansible.com/overview/how-ansible-works
+# - https://github.com/jdauphant/awesome-ansible
+
+set -e
+cd "$(cd "$(dirname "$0")"; pwd)"
+
+help () {
+    fatal <<HELP_MSG
+Usage: $0 [options]
+
+Environment options:
+  --staging     Deploy to staging environment.
+  --prod        Deploy to production environment.
+
+Common options:
+  --list-tags      List all available tags.
+  --list-tasks     List all tasks that would be executed.
+
+Examples:
+  $0 --prod
+  $0 --prod -t web2018.web.restart
+HELP_MSG
+}
+
+ensure_ansible () {
+  if ! test -f ansible-deps-cache/.versions 2>/dev/null; then
+    curl https://raw.githubusercontent.com/epfl-si/ansible.suitcase/master/install.sh | \
+      SUITCASE_DIR=$PWD/ansible-deps-cache \
+      SUITCASE_ANSIBLE_VERSION=10.7.0 \
+      SUITCASE_ANSIBLE_REQUIREMENTS=requirements.yml \
+      SUITCASE_PIP_EXTRA="ansible-lint kubernetes" \
+      bash -x
+  fi
+
+  . ansible-deps-cache/lib.sh
+  ensure_ansible_runtime
+}
+
+ensure_oc4_login () {
+  local clustername="$1"; shift
+
+  if ! oc whoami > /dev/null 2>&1 || ! oc whoami --show-server | grep -q "$cluster_url"; then
+    echo "Logging into OpenShift cluster at $cluster_url..."
+    oc login "$cluster_url" --web;
+  else
+    echo "Already logged into $cluster_url."
+  fi
+}
+
+ensure_ansible
+
+declare -a ansible_args
+inventory_mode="staging"
+cluster_url="https://api.ocpitst0001.xaas.epfl.ch:6443"
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --help)
+      help ;;
+    --staging)
+      shift ;;
+    --prod)
+      cluster_url="https://api.ocpitsp0001.xaas.epfl.ch:6443"
+      inventory_mode="prod"
+      shift ;;
+    *)
+      ansible_args+=("$1")
+      shift ;;
+  esac
+done
+
+ensure_oc4_login "$cluster_url"
+
+inventories () {
+  case "$inventory_mode" in
+    staging) echo "-i inventory/staging.yml" ;;
+    prod) echo "-i inventory/prod.yml" ;;
+  esac
+}
+
+ansible-playbook $(inventories) playbook.yml "${ansible_args[@]}"

@@ -1,0 +1,128 @@
+- name: Web2018 - ServiceAccount
+  kubernetes.core.k8s:
+    definition:
+      apiVersion: v1
+      kind: ServiceAccount
+      metadata:
+        name: '{{ app_name }}-service-account'
+        namespace: '{{ openshift_namespace }}'
+      imagePullSecrets:
+        - name: '{{ app_name }}-pull-secret'
+
+- name: Web2018 - ConfigMap
+  kubernetes.core.k8s:
+    definition:
+      apiVersion: v1
+      kind: ConfigMap
+      metadata:
+        name: '{{ app_name }}-nginx-config'
+        namespace: '{{ openshift_namespace }}'
+        labels:
+          app: '{{ app_name }}'
+          team: '{{ team }}'
+      data:
+        static.conf: |
+          {{ nginx_config }}
+  register: _web2018_configmap
+
+- name: Web2018 - Service
+  kubernetes.core.k8s:
+    definition:
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: '{{ app_name }}'
+        namespace: '{{ openshift_namespace }}'
+        labels:
+          app: '{{ app_name }}'
+          team: '{{ team }}'
+      spec:
+        type: ClusterIP
+        ports:
+          - name: '80'
+            port: 80
+            targetPort: 8080
+        selector:
+          app: '{{ app_name }}'
+
+- name: Web2018 - Deployment
+  kubernetes.core.k8s:
+    definition:
+      apiVersion: apps/v1
+      kind: Deployment
+      metadata:
+        name: '{{ app_name }}'
+        namespace: '{{ openshift_namespace }}'
+        labels:
+          team: '{{ team }}'
+          app.kubernetes.io/component: 'frontend'
+          app.kubernetes.io/managed-by: 'ansible'
+          app.kubernetes.io/name: '{{ app_name }}'
+          app.kubernetes.io/version: '{{ tag }}'
+          app.openshift.io/runtime: 'nginx'
+        annotations:
+          app.openshift.io/vcs-uri: 'https://github.com/epfl-si/epfl-theme-elements/'
+          app.openshift.io/vcs-ref: 'v{{ tag }}'
+      spec:
+        replicas: 2
+        strategy:
+          type: RollingUpdate
+          rollingUpdate:
+            maxUnavailable: 1
+        selector:
+          matchLabels:
+            app: '{{ app_name }}'
+        template:
+          metadata:
+            labels:
+              app: '{{ app_name }}'
+          spec:
+            serviceAccountName: '{{ app_name }}-service-account'
+            affinity:
+              podAntiAffinity:
+                requiredDuringSchedulingIgnoredDuringExecution:
+                  - labelSelector:
+                      matchLabels:
+                        app: '{{ app_name }}'
+                    topologyKey: kubernetes.io/hostname
+            containers:
+              - name: '{{ app_name }}'
+                image: '{{ quay_registry }}/{{ app_name }}:{{ tag }}'
+                imagePullPolicy: Always
+                volumeMounts:
+                  - name: nginx-conf-volume
+                    mountPath: /etc/nginx/conf.d
+                resources:
+                  requests:
+                    cpu: 100m
+                    memory: 64Mi
+                readinessProbe:
+                  httpGet:
+                    scheme: HTTP
+                    path: /check
+                    port: 8080
+                  initialDelaySeconds: 2
+                  timeoutSeconds: 2
+            volumes:
+              - name: nginx-conf-volume
+                configMap:
+                  name: '{{ app_name }}-nginx-config'
+
+- name: Web2018 - Restart
+  when: >-
+    ('web.restart' in ansible_run_tags)
+    or
+    ( (_web2018_configmap | default({})) is changed )
+  kubernetes.core.k8s:
+    state: patched
+    kind: Deployment
+    definition:
+      metadata:
+        name: '{{ app_name }}'
+        namespace: '{{ openshift_namespace }}'
+      spec:
+        template:
+          metadata:
+            annotations:
+              last-restart: '{{ ansible_date_time.iso8601 }}'
+  tags: web2018.web.restart
