@@ -18,6 +18,10 @@
     "node": ">=18.18"
   },
   "main": "dist/js/elements.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "grunt test",
     "release": "grunt release"
