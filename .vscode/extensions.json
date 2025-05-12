@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ahmadalli.vscode-nginx-conf",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "exiasr.hadolint",
+    "ms-python.python",
+    "redhat.ansible"
+  ]
+}
