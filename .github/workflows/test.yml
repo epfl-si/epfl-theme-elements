@@ -18,6 +18,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
-      - run: yarn install
-      - run: yarn test
-      - run: yarn release
+      - run: |
+          yarn install
+          yarn test
+          npm version --commit-hooks false --git-tag-version false patch
+          yarn release
