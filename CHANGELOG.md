@@ -1,7 +1,18 @@
 EPFL Theme Elements
 ===================
 
-### v7.2.0 / 2024-02-24
+### v8.0.0 / 2025-05-13
+
+- Migrate to OpenShift 4
+- Add dist-cdn folder with all releases
+- Add hadolint (Dockerfile linter)
+- Add VS Code config
+- Update automatically dist-cdn/
+- Build and push image in ghcr
+- Dockerize
+- Limit files uploaded to npm registry
+
+### v7.2.0 / 2025-02-24
 
 - Add Mastodon in footer
 - Update legal links in footer
