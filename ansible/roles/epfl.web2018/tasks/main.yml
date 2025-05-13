@@ -1,0 +1,29 @@
+- name: Images tasks
+  ansible.builtin.include_tasks:
+    file: 'images.yml'
+    apply:
+      tags: web2018.images
+  tags: web2018.images
+
+- name: Secrets tasks
+  ansible.builtin.include_tasks:
+    file: 'secrets.yml'
+    apply:
+      tags: web2018.secrets
+  tags: web2018.secrets
+
+- name: Routes tasks
+  ansible.builtin.include_tasks:
+    file: 'routes.yml'
+    apply:
+      tags: web2018.routes
+  tags: web2018.routes
+
+- name: Web tasks
+  ansible.builtin.include_tasks:
+    file: 'web.yml'
+    apply:
+      tags: web2018.web
+  tags:
+    - web2018.web
+    - web2018.web.restart

@@ -1,0 +1,13 @@
+all:
+  hosts:
+    web2018-staging-openshift:
+      ansible_connection: local
+      ansible_host: localhost
+      openshift_namespace: svc0041t-webcdn
+      ansible_python_interpreter: '{{ ansible_playbook_python }}'
+      inventory_environment: staging
+  vars:
+    hostnames:
+      - { name: 'staging-web2018.epfl.ch', availability: 'public-cf' }
+      - { name: 'staging-web2018-origin.epfl.ch', availability: 'private' }
+    tag: 8.0.0

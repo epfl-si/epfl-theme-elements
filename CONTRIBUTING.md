@@ -33,8 +33,8 @@ Release
 -------
 
   1. Update [CHANGELOG.md](CHANGELOG.md)
-  2. Update the version in [package.json](package.json)
-  3. Build and commit the `dist` folder
+  2. Update the version in [package.json](package.json) and Ansible inventories.
+  3. Build and commit the `dist*` folders
   4. Deploy and tagging (check below)
   5. Create the release package in GitHub
   6. Publish with ``npm publish``
@@ -42,23 +42,17 @@ Release
 Deploy
 ------
 
-Copy the deploy tool on the servers (if doesn't exist on the server):
 ```bash
-./deploy_tool/web2018.sh deploy_tools
-```
+# Help
+./ansible/web2018sible --help
 
-Deploy the archive on the servers:
-```bash
-scp release/*cdn.zip <user>@<server>:~
-```
-
-Then on each server:
-```bash
-./web2018.sh deploy <archive>
+# Production
+./ansible/web2018sible --prod
 ```
 
 Tagging
 -------
+
 ```bash
 git tag -a v<version> -m "EPFL Theme Elements - <version>"
 git push --tags

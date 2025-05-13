@@ -1,0 +1,11 @@
+- name: Web2018 - Pull image
+  community.docker.docker_image:
+    name: '{{ ghcr_registry }}/{{ app_name }}:{{ tag }}'
+    source: pull
+
+- name: Web2018 - Push image
+  community.docker.docker_image:
+    name: '{{ ghcr_registry }}/{{ app_name }}:{{ tag }}'
+    repository: '{{ quay_registry }}/{{ app_name }}:{{ tag }}'
+    push: true
+    source: local

@@ -1,0 +1,5 @@
+- name: Web2018 Kubernetes objects
+  hosts: all
+  gather_facts: true
+  roles:
+    - role: roles/epfl.web2018

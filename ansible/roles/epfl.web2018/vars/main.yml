@@ -1,0 +1,9 @@
+app_name: 'web2018'
+team: 'isas-fsd'
+
+ghcr_registry: 'ghcr.io/epfl-si'
+quay_registry: 'quay-its.epfl.ch/svc0041'
+
+secrets: '{{ lookup("file", "/keybase/team/epfl_web2018/{{ inventory_environment }}/secrets.yml") | from_yaml }}'
+
+nginx_config: '{{ lookup("file", "/keybase/team/epfl_web2018/{{ inventory_environment }}/web2018.conf") }}'
