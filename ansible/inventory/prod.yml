@@ -10,4 +10,4 @@ all:
     hostnames:
       - { name: 'web2018.epfl.ch', availability: 'public-cf' }
       - { name: 'prod-web2018-origin.epfl.ch', availability: 'private' }
-    tag: dev.20250508152549.034380d.348
+    tag: 8.0.0
