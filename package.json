@@ -24,7 +24,7 @@
   ],
   "scripts": {
     "test": "grunt test",
-    "release": "grunt release"
+    "release": "grunt release && ./update-dist-cdn.sh"
   },
   "devDependencies": {
     "eslint": "^9.19.0",

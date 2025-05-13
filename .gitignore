@@ -67,6 +67,7 @@ tmp/
 build/
 release/
 package/
+vhosts/
 
 # Ansible
 ansible/ansible-deps-cache
