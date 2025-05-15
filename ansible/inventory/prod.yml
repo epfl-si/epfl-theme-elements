@@ -7,7 +7,5 @@ all:
       ansible_python_interpreter: '{{ ansible_playbook_python }}'
       inventory_environment: prod
   vars:
-    hostnames:
-      - { name: 'web2018.epfl.ch', availability: 'public-cf' }
-      - { name: 'prod-web2018-origin.epfl.ch', availability: 'private' }
+    hostname: 'web2018.epfl.ch'
     tag: 8.0.0

@@ -1,21 +1,20 @@
 - name: Web2018 - Routes
-  with_items: '{{ hostnames }}'
   kubernetes.core.k8s:
     definition:
       apiVersion: route.openshift.io/v1
       kind: Route
       metadata:
-        name: '{{ item.name }}'
+        name: '{{ hostname }}'
         namespace: '{{ openshift_namespace }}'
         labels:
           app: '{{ app_name }}'
           team: '{{ team }}'
-          route: '{{ item.availability }}'
+          route: public-cf
         annotations:
           haproxy.router.openshift.io/balance: roundrobin
           haproxy.router.openshift.io/disable_cookies: 'true'
       spec:
-        host: '{{ item.name }}'
+        host: '{{ hostname }}'
         wildcardPolicy: None
         port:
           targetPort: '80'
