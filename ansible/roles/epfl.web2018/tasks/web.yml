@@ -110,7 +110,7 @@
 
 - name: Web2018 - Restart
   when: >-
-    ('web.restart' in ansible_run_tags)
+    ('web2018.web.restart' in ansible_run_tags)
     or
     ( (_web2018_configmap | default({})) is changed )
   kubernetes.core.k8s:
