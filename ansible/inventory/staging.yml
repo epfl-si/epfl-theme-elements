@@ -8,4 +8,4 @@ all:
       inventory_environment: staging
   vars:
     hostname: 'staging-web2018.epfl.ch'
-    tag: 8.0.0
+    tag: 8.0.1
