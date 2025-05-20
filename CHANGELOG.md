@@ -1,6 +1,14 @@
 EPFL Theme Elements
 ===================
 
+### v8.0.1 / 2025-05-20
+
+- Add trivy (security scanner)
+- Update Elements to 5.2.1
+- Remove routes *-origin
+- Clean nginx config
+- Fix Ansible tag
+
 ### v8.0.0 / 2025-05-13
 
 - Migrate to OpenShift 4
