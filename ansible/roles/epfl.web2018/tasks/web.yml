@@ -64,7 +64,8 @@
           app.openshift.io/vcs-uri: 'https://github.com/epfl-si/epfl-theme-elements/'
           app.openshift.io/vcs-ref: 'v{{ tag }}'
       spec:
-        replicas: 2
+        replicas: >-
+          {{ 2 if inventory_environment == 'prod' else 1 }}
         strategy:
           type: RollingUpdate
           rollingUpdate:
@@ -93,8 +94,10 @@
                   - name: nginx-conf-volume
                     mountPath: /etc/nginx/conf.d
                 resources:
+                  limits:
+                    memory: 64Mi
                   requests:
-                    cpu: 100m
+                    cpu: 10m
                     memory: 64Mi
                 readinessProbe:
                   httpGet:
