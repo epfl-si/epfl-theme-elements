@@ -1,6 +1,11 @@
 EPFL Theme Elements
 ===================
 
+### v8.1.0 / 2025-06-16
+
+- Tweak cpu and memory
+- Update Elements to 5.3.0
+
 ### v8.0.1 / 2025-05-20
 
 - Add trivy (security scanner)
