@@ -3,7 +3,7 @@ EPFL Theme Elements
 
 ### v8.5.1 / 2026-05-26
 
-- Update elements to 5.7.2
+- Update Elements to 5.7.2
 
 ### v8.5.0 / 2026-02-23
 
