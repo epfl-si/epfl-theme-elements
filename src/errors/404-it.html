@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <title>Pagina non trovata - EPFL</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="Pagina non trovata - EPFL" />
+
+  {{> head }}
+
+</head>
+<body>
+  <div class="site d-flex flex-column min-vh-100">
+
+    {{> access-nav-it }}
+
+    <header class="header">
+      {{> logo }}
+    </header>
+
+    <div class="breadcrumb-container">
+      <nav aria-label="breadcrumb" class="breadcrumb-wrapper" id="breadcrumb-wrapper">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="//www.epfl.ch" title="Home" aria-label="Home">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-home"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Pagina non trovata</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="main-container">
+      <div class="w-100 pb-5">
+        <main id="main" class="content">
+          <section class="error-404 not-found">
+            <div class="page-content container">
+              <p class="h1 mt-4 error-title">404</p>
+              <h1 class="h3 text-center">
+                Ops! Questa pagina è introvabile.
+              </h1>
+              <div class="mt-5 pt-2">
+                <form action="https://search.epfl.ch/" class="border-0 p-0">
+                  <div class="search-form mt-1 input-group">
+                    <label for="search" class="sr-only">Ricerca</label>
+                    <input type="text" class="form-control" name="search" placeholder="Cerca nel Web dell'EPFL">
+                    <button type="submit" class="d-none d-sm-block btn btn-primary input-group-append">Conferma</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <div class="bg-gray-100 pt-5 mt-auto">
+      <div class="container">
+        {{> footer-light-it }}
+      </div>
+    </div>
+
+  </div>
+
+  {{> footer-scripts }}
+</body>
+</html>
