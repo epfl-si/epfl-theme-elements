@@ -1,6 +1,15 @@
 EPFL Theme Elements
 ===================
 
+### v8.8.0 / 2026-10-19
+
+* Add Italian templates
+* Add marker comments to footer legal partials
+* Add GTM start/end marker comments to gtm partials
+* Update translations to match Elements reference
+* Update Elements to 5.10.0
+* Bump handlebars from 4.7.7 to 4.7.10
+
 ### v8.7.0 / 2026-08-12
 
 - Update Elements to 5.9.0
